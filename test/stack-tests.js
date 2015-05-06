@@ -5,6 +5,11 @@ describe('Stack', function() {
     stack = new Stack();
   });
 
+  it('should have a push and pop method', function() {
+    expect(stack.push).to.be.a('function');
+    expect(stack.pop).to.be.a('function');
+  });
+
   it('should push elements to stack', function() {
     stack.push(0);
     expect(stack.pop()).to.eql(0);
@@ -24,5 +29,4 @@ describe('Stack', function() {
     expect(stack.pop()).to.eql(1);
     expect(stack.pop()).to.eql(0);
   });
-
 });

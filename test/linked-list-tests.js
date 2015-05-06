@@ -5,6 +5,10 @@ describe('LinkedList', function() {
     list = new LinkedList();
   });
 
+  it('should have a push method', function() {
+    expect(list.push).to.be.a('function');
+  });
+
   it('should have head set to null when list is made', function() {
     expect(list.head).to.eql(null);
   });
