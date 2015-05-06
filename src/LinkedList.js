@@ -1,22 +1,12 @@
 function LinkedList() {
   this.head = null;
-  this.tail = null;
 }
 
-// similar to unshift
-LinkedList.prototype.addToHead = function(value) {
-
+function Node(val) {
+  this.value = val;
+  this.next = null;
 }
 
-//similar to to shift
-LinkedList.prototype.removeHead = function() {
-
-}
-
-LinkedList.prototype.addToTail = function() {
-
-}
-
-LinkedList.prototype.removeTail = function() {
+LinkedList.prototype.push = function() {
 
 }
