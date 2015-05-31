@@ -6,6 +6,8 @@ describe('Stack', function() {
   });
 
   it('should have a push and pop method', function() {
+    expect(stack).to.have.property('push');
+    expect(stack).to.have.property('pop');
     expect(stack.push).to.be.a('function');
     expect(stack.pop).to.be.a('function');
   });

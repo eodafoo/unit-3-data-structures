@@ -5,6 +5,11 @@ describe('Queue', function() {
     queue = new Queue();
   });
 
+  // add test for methods
+  it('so')
+// disable array methods
+ // add test for instance
+ // fix pop nad push name
   it('should push elements to queue', function() {
     queue.push(0);
     expect(queue.pop()).to.eql(0);
