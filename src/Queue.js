@@ -1,3 +1,4 @@
+// do not use any native array methods
 function Queue() {
 
 }
