@@ -10,6 +10,20 @@ Graph.prototype.addNode = function(value) {
 
 // returns true if the value is contained in the set
 Graph.prototype.contains = function(value) {
-
+	if(this.value === value)
+	{
+		return true;
+	}
+	else
+	{
+		for(var i = 0; i < this.edges.length; i++)
+		{
+			if(this.edges[i].contains(value))
+			{
+				return true;
+			}
+		}
+	}
+	return false;
 }
 
