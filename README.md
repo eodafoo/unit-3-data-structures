@@ -1,7 +1,7 @@
-#CS-Fundamentals-1
+#Data Structure
 
 ##Summary
-CS-Fundamentals provides students an opportunity to implement some core Computer Science data structures
+The following challenge introduces you to fundamental computer science data structure.
 
 ##How do I get started?
 1. Fork this repo
