@@ -10,13 +10,13 @@ describe('Graph', function() {
   });
 
   it('should add edge to graph', function() {
-    graph.addEdge(1);
+    graph.addNode(1);
     expect(graph.contains(1)).to.eql(true);
   });
 
   it('should add edges to graph', function() {
-    graph.addEdge(1);
-    graph._edges[0].addEdge(2);
+    graph.addNode(1);
+    graph._edges[0].addNode(2);
     expect(graph.contains(2)).to.eql(true);
   })
 

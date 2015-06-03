@@ -1,6 +1,7 @@
 function Tree(value) {
-  this._value = value;
-  this._children = [];
+  this.value = value;
+  this.right = null;
+  this.left = null;
 }
 
 Tree.prototype.add = function(value) {
