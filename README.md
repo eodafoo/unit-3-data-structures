@@ -1,7 +1,7 @@
 #Data Structure
 
 ##Summary
-The following challenge introduces you to fundamental computer science data structure.
+In this challenge, you will be creating data structures that are commonly use in software engineering. 
 
 ##How do I get started?
 1. Fork this repo
@@ -15,14 +15,21 @@ The following challenge introduces you to fundamental computer science data stru
   git clone *github url
   ````
 
-3. Complete the challenge in located in src/js-fundamentals.js. Feel free complete the functions in any order.
+3. Complete the challenge in located in src/ directory. We recommend completing creating the data structure in the following order (the order they appear in the tests):
+
+- Stack
+- Queue
+- Set
+- LinkedList
+- HashTable
+- Tree
+- Graph
+
+**Bonus**
+
+- Binary Search Tree
+
 
 ##How do I test if my answer is correct?
-* An incredibly useful tool is Chrome Dev Tool's Javascript Console (which can be opened in Chrome by pressing command+option+J). The console allows for developers to type javascript directly into the browser. Test it out by typing in the following to the console:
-````
-var a = 'lorem';
-console.log(a);
-````
-
 * To test your functions, open index.html in your browser
 ** NOTE: While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
