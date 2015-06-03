@@ -8,12 +8,12 @@ describe('Queue', function() {
   it('should have enqueue and dequeue method', function() {
     expect(queue).to.have.property('queue');    
     expect(queue).to.have.property('dequeue');    
-    expect(queue.dequeue).to.be('function');
-    expect(queue.enqueue).to.be('function');
+    expect(queue.dequeue).to.be.a('function');
+    expect(queue.enqueue).to.be.a('function');
   });
 
   it('should push elements to queue', function() {
-    queue.enque(0);
+    queue.enqueue(0);
     expect(queue.dequeue()).to.eql(0);
   });
 
