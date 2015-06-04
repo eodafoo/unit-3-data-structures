@@ -1,4 +1,4 @@
-function BinarySearchTree() {
+function BinarySearchTree(value) {
   this.value = value;
   this.right = null;
   this.left = null;
@@ -24,11 +24,11 @@ BinarySearchTree.prototype.contains = function(value) {
 	if(value === this.value){
 		return true;
 	} else if(value < this.value) {
-		if(this.left.contains(value)){
+		if(this.left != null && this.left.contains(value)){
 			return true;
 		}
 	} else {
-		if(this.right.contains(value)){
+		if(this.right != null && this.right.contains(value)){
 			return true;
 		}
 	}
