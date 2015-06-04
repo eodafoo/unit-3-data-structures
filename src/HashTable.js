@@ -17,6 +17,11 @@ HashTable.prototype.get = function(key) {
 
 }
 
+// returns and removes a key from the hash table
+HashTable.prototype.remove = function(key) {
+
+}
+
 // returns a number between 0 and size that is unique* and generated from the the inputted string
 function hashCode(string, size){
   var hash = 0;
@@ -25,6 +30,9 @@ function hashCode(string, size){
     var letter = string.charCodeAt(i);
     hash = ((hash<<5)-hash)+letter;
     hash = hash & hash; // Convert to 32bit integer
+  }
+  if (hash < 0) {
+    hash = -hash;
   }
   return hash % size ;
 }
