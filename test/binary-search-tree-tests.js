@@ -5,10 +5,11 @@ describe('binarySearchTree', function() {
     binarySearchTree = new BinarySearchTree(5);
   });
 
-  it('should have methods named "add", "contains", and "depthFirstLog', function() {
+  it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
-    expect(binarySearchTree.depthFirstLog).to.be.a("function");
+    expect(binarySearchTree.depthFirst).to.be.a("function");
+    expect(binarySearchTree.breadthFirst).to.be.a("function");
   });
 
   it('should add values at the correct location in the tree', function(){
@@ -28,12 +29,25 @@ describe('binarySearchTree', function() {
     expect(binarySearchTree.contains(8)).to.equal(false);
   });
 
-  it('should execute a callback on every value in a tree using "depthFirstLog"', function(){
+  it('should execute a callback on every value in a tree using "depthFirst"', function(){
     var array = [];
     var func = function(value){ array.push(value); };
     binarySearchTree.add(2);
     binarySearchTree.add(3);
-    binarySearchTree.depthFirstLog(func);
-    expect(array).to.eql([5,2,3]);
+    binarySearchTree.add(7);
+    binarySearchTree.add(6);
+    binarySearchTree.depthFirst(func);
+    expect(array).to.eql([5,2,3,7,6]);
+  });
+
+  it('should execute a callback on every value in a tree using "breadthFirst"', function(){
+    var array = [];
+    var func = function(value){ array.push(value); };
+    binarySearchTree.add(2);
+    binarySearchTree.add(3);
+    binarySearchTree.add(7);
+    binarySearchTree.add(6);
+    binarySearchTree.depthFirst(func);
+    expect(array).to.eql([5,2,7,3,6]);
   });
 });

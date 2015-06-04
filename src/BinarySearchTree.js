@@ -13,6 +13,11 @@ BinarySearchTree.prototype.contains = function(value) {
 }
 
 // applies the callback in the order of depth first
-BinarySearchTree.prototype.depthFirstLog = function(callback) {
+BinarySearchTree.prototype.depthFirst = function(callback) {
+
+}
+
+// applies the callback in the order of breath first
+BinarySearchTree.prototype.breadthFirst = function(callback) {
 
 }

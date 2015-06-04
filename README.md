@@ -1,7 +1,7 @@
 #Data Structure
 
 ##Summary
-In this challenge, you will be creating data structures that are commonly use in software engineering. 
+In this challenge, you will be creating data structures that are commonly use in software engineering.
 
 ##How do I get started?
 1. Fork this repo
@@ -28,6 +28,9 @@ In this challenge, you will be creating data structures that are commonly use in
 **Bonus**
 
 - Binary Search Tree
+- LinkedList (addToHead method)
+- HashTable (resize)
+- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter)
 
 
 ##How do I test if my answer is correct?

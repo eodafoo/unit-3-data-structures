@@ -7,7 +7,6 @@ describe('LinkedList', function() {
 
   it('should have a push method', function() {
     expect(list.push).to.be.a('function');
-    expect(list.addToHead).to.be.a('function');
   });
 
   it('should have head set to null when list is made', function() {
@@ -40,7 +39,11 @@ describe('LinkedList', function() {
     expect(list.contains(3)).to.eql(true);
   });
 
-  it('should add value to head', function() {
+  xit('should have addToHead method', function() {
+    expect(list.addToHead).to.be.a('function');
+  });
+
+  xit('should add value to head', function() {
     list.push(0);
     list.push(1);
     list.push(2);
