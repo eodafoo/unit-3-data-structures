@@ -13,6 +13,12 @@ LinkedList.prototype.push = function(value) {
 
 }
 
+// adds node to the beginning of the list
 LinkedList.prototype.addToHead = function(value) {
+
+}
+
+// returns true if value is present in the list
+LinkedList.prototype.contains = function(value) {
 
 }

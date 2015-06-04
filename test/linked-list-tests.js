@@ -16,8 +16,12 @@ describe('LinkedList', function() {
 
   it('should push first element to head', function() {
     list.push(5);
-    expect(list.head.value).to.eql(5);
-    expect(list.head.next).to.eql(null);
+    expect(list.contains(5)).to.eql(true);
+  });
+
+  it('should return false if element in not present in list', function() {
+    list.push(0);
+    expect(list.contains(1)).to.eql(false);
   });
 
   it('should push multiple elements', function() {
@@ -30,6 +34,10 @@ describe('LinkedList', function() {
     expect(list.head.next.next.value).to.eql(2);
     expect(list.head.next.next.next.value).to.eql(3);
     expect(list.head.next.next.next.next).to.eql(null);
+    expect(list.contains(0)).to.eql(true);
+    expect(list.contains(1)).to.eql(true);
+    expect(list.contains(2)).to.eql(true);
+    expect(list.contains(3)).to.eql(true);
   });
 
   it('should add value to head', function() {
