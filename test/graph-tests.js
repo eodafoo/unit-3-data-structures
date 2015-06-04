@@ -16,7 +16,7 @@ describe('Graph', function() {
 
   it('should add edges to graph', function() {
     graph.addNode(1);
-    graph._edges[0].addNode(2);
+    graph.edges[0].addNode(2);
     expect(graph.contains(2)).to.eql(true);
   })
 

@@ -5,7 +5,7 @@ function BinarySearchTree() {
 }
 
 BinarySearchTree.prototype.add = function(value) {
-
+	
 }
 
 BinarySearchTree.prototype.contains = function(value) {

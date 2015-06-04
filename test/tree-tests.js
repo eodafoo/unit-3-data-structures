@@ -10,7 +10,7 @@ describe('Tree', function() {
   });
 
   it('should have no children when created', function() {
-    expect(tree.children.length).to.have.length(0);
+    expect(tree.children.length).to.be(0);
   });
 
   it('should have add children', function() {
