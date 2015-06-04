@@ -1,5 +1,7 @@
 function BinarySearchTree() {
-  
+  this.value = value;
+  this.right = null;
+  this.left = null;
 }
 
 BinarySearchTree.prototype.add = function(value) {
