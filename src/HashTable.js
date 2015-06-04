@@ -9,12 +9,18 @@ function HashTable() {
 // stores a value in the storage array
 // hint: use the hash function to determine where in the array to store the value
 HashTable.prototype.set = function(key, value) {
-	this.storage[hashCode(key,this.SIZE)] = value;
+  if(this.storage[hashCode(key, this.SIZE)] === undefined){
+    var obj = {};
+    obj[key] = value;
+    this.storage[hashCode(key, this.SIZE)] = obj;
+  } else {
+    this.storage[hashCode(key, this.SIZE)][key] = value;
+  }
 }
 
 // return a previously stored value
 HashTable.prototype.get = function(key) {
-  return this.storage[hashCode(key,this.SIZE)];
+  return this.storage[hashCode(key, this.SIZE)][key];
 }
 
 // returns a number between 0 and size that is unique* and generated from the the inputted string
