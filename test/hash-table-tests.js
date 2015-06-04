@@ -25,13 +25,13 @@ describe('HashTable', function() {
   });
 
   it('should handle collisions (http://en.wikipedia.org/wiki/Hash_table#Collision_resolution)', function() {
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 30; i++) {
       var key = 'key ' + i;
       var value = 'value ' + i;
       hashTable.set(key, value);
       expect(hashTable.get(key)).to.be(value);
     }
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 30; i++) {
       var key = 'key ' + i;
       var value = 'value ' + i;
       expect(hashTable.get(key)).to.be(value);
