@@ -1,5 +1,6 @@
 function LinkedList() {
   this.head = null;
+  this.tail = null;
 }
 
 function Node(val) {
@@ -7,6 +8,11 @@ function Node(val) {
   this.next = null;
 }
 
-LinkedList.prototype.push = function() {
+// adds node to end of list
+LinkedList.prototype.push = function(value) {
+
+}
+
+LinkedList.prototype.addToHead = function(value) {
 
 }
