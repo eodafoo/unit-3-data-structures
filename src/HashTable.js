@@ -31,8 +31,5 @@ function hashCode(string, size){
     hash = ((hash<<5)-hash)+letter;
     hash = hash & hash; // Convert to 32bit integer
   }
-  if (hash < 0) {
-    hash = -hash;
-  }
-  return hash % size ;
+  return Math.abs(hash) % size ;
 }
