@@ -27,10 +27,11 @@ In this challenge, you will be creating data structures that are commonly use in
 
 **Bonus**
 
+Remove x from test file to enable test
 - Binary Search Tree
 - LinkedList (addToHead method)
+- DoublyLinked Lists
 - HashTable (resize)
-- [Bloom Filter](https://en.wikipedia.org/wiki/Bloom_filter)
 
 
 ##How do I test if my answer is correct?

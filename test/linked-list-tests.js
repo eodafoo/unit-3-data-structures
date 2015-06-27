@@ -1,6 +1,5 @@
-var list;
-describe('LinkedList', function() {
-
+xdescribe('LinkedList', function() {
+  var list;
   beforeEach(function() {
     list = new LinkedList();
   });
@@ -39,10 +38,13 @@ describe('LinkedList', function() {
     expect(list.contains(3)).to.eql(true);
   });
 
+
+  // remove x to activate test
   xit('should have addToHead method', function() {
     expect(list.addToHead).to.be.a('function');
   });
 
+  // remove x to activate test
   xit('should add value to head', function() {
     list.push(0);
     list.push(1);
@@ -65,5 +67,29 @@ describe('LinkedList', function() {
     expect(list.head.next.next.next.next.value).to.eql(2);
     expect(list.head.next.next.next.next.next).to.eql(null);
   });
-
 });
+
+// remove x to activate test
+describe('Doubly Linked List', function() {
+  var list;
+  beforeEach(function() {
+    list = new LinkedList();
+  });
+
+  it('nodes should have back property', function() {
+    var node = new Node(0);
+    expect(node).to.have.property('back');
+  });
+
+  it('should link back reference to previous node when node is pushed to list', function() {
+    list.push(0);
+    list.push(1);
+    list.push(2);
+    expect(list.head.value).to.eql(0);
+    expect(list.head.next.value).to.eql(1);
+    expect(list.head.next.next.value).to.eql(2);
+    expect(list.head).to.equal(list.head.next.back);
+    expect(list.head.next).to.equal(list.head.next.next.back);
+  });
+});
+

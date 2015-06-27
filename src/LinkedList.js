@@ -6,6 +6,7 @@ function LinkedList() {
 function Node(val) {
   this.value = val;
   this.next = null;
+  this.back = null;
 }
 
 // adds node to end of list
