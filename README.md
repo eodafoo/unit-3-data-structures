@@ -1,7 +1,28 @@
 #Data Structure
 
 ##Summary
-In this challenge, you will be creating data structures that are commonly use in software engineering.
+In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
+
+### Stack
+![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/2000px-Data_stack.svg.png)
+
+### Queue
+![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/2000px-Data_Queue.svg.png)
+
+### Set
+![inline](http://www.codeproject.com/KB/recipes/DotNetSet/Sets02.png)
+
+### LinkedList
+![inline](http://www.java2novice.com/images/linked_list.png)
+
+### Hash Table
+![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/2000px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
+
+### Tree
+![inline](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/220px-Binary_tree.svg.png)
+
+### Graph
+![inline](http://courses.cs.vt.edu/csonline/DataStructures/Lessons/Graphs/graph.gif)
 
 ##How do I get started?
 1. Fork this repo
