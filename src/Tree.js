@@ -4,23 +4,11 @@ function Tree(value) {
 }
 
 Tree.prototype.add = function(value) {
-	this.children.push(new Tree(value));
 }
 
 Tree.prototype.contains = function(value) {
-	if(this.value === value)
-	{
-		return true;
-	}
-	else
-	{	
-		for(var i = 0; i < this.children.length; i++)
-		{
-			if(this.children[i].contains(value))
-			{
-				return true;
-			}
-		}
-	}
-	return false;
+}
+
+//Find the height of a tree. The height is the length of the path from the root to its farthest leaf
+Tree.prototype.height = function() {
 }

@@ -1,24 +1,20 @@
 function LinkedList() {
   this.head = null;
+  this.tail = null;
 }
 
 function Node(val) {
   this.value = val;
   this.next = null;
+  this.back = null;
 }
 
-LinkedList.prototype.push = function() {
-	if(this.head === null)
-	{
-		this.head = new Node(arguments[0]);
-	}
-	else
-	{
-		var current = this.head;
-		while(current.next !== null)
-		{
-			current = current.next;
-		}
-		current.next = new Node(arguments[0]);
-	}
+// adds node to end of list
+LinkedList.prototype.push = function(value) {
+
+}
+
+// returns true if value is present in the list
+LinkedList.prototype.contains = function(value) {
+
 }
