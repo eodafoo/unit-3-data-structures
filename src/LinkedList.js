@@ -18,3 +18,4 @@ LinkedList.prototype.push = function(value) {
 LinkedList.prototype.contains = function(value) {
 
 }
+
