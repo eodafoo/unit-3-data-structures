@@ -8,7 +8,7 @@ describe('binarySearchTree', function() {
   it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
-    expect(binarySearchTree.depthFirst).to.be.a("function");
+    expect(binarySearchTree.depthFirstPre).to.be.a("function");
     expect(binarySearchTree.breadthFirst).to.be.a("function");
   });
 
@@ -47,7 +47,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(3);
     binarySearchTree.add(7);
     binarySearchTree.add(6);
-    binarySearchTree.depthFirst(func);
+    binarySearchTree.depthFirstPre(func);
     expect(array).to.eql([5,2,7,3,6]);
   });
 });
