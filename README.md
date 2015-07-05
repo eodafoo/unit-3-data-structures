@@ -24,6 +24,12 @@ In this challenge, you will be creating data structures that are commonly use in
 ### Graph
 ![inline](./assets/graph.gif)
 
+### Binary Search Tree
+![inline](./assets/binary.png)
+
+### Trie
+![inline](./assets/trie.jpg)
+
 ##How do I get started?
 1. Fork this repo
   - click on fork button on the top right of the page ![Alt text](http://u.cubeupload.com/azai91/howtofork.png)
@@ -53,10 +59,12 @@ Remove x from test file to enable test
 - DoublyLinked Lists
 - HashTable (resize)
 
-Not tested
+**Extra (untested) Bonus**
+- LinkedList (insert, removeItem, removePosition)
 - Tree (height)
 - Binary Search Tree (min, max, remove)
 - Priority Queue
+- Trie
 
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser

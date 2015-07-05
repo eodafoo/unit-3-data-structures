@@ -19,3 +19,27 @@ LinkedList.prototype.contains = function(value) {
 
 }
 
+// Bonus
+// adds node to beginning of list
+LinkedList.prototype.addToHead = function(value) {
+
+}
+
+// Extra Bonus
+// insert an item at the position specified
+LinkedList.prototype.insert = function(value, position) {
+
+}
+
+// Extra Bonus
+// remove first occurrence of value from list
+LinkedList.prototype.removeItem = function(value) {
+
+}
+
+// Extra Bonus
+// remove element at specified position in list
+LinkedList.prototype.removePosition = function(position) {
+
+}
+

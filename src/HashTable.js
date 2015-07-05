@@ -9,10 +9,12 @@ function HashTable() {
 // stores a value in the storage array
 // hint: use the hash function to determine where in the array to store the value
 HashTable.prototype.set = function(key, value) {
+
 }
 
 // return a previously stored value
 HashTable.prototype.get = function(key) {
+
 }
 
 // returns and removes a key from the hash table

@@ -1,8 +1,10 @@
-function PriorityQueue(comparator) {
+// Extra Bonus
+// Store items so that the item of highest priority can be efficiently removed
+function PriorityQueue() {
 
 }
 
-PriorityQueue.prototype.enqueue = function(item) {
+PriorityQueue.prototype.enqueue = function(item, priority) {
 
 }
 
