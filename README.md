@@ -15,6 +15,9 @@ In this challenge, you will be creating data structures that are commonly use in
 ### LinkedList
 ![inline](./assets/linked_list.png)
 
+## Doubly LinkedList
+![inline](./assets/doubly_linked.PNG)
+
 ### Hash Table
 ![inline](./assets/hash_table.png)
 
@@ -23,6 +26,12 @@ In this challenge, you will be creating data structures that are commonly use in
 
 ### Graph
 ![inline](./assets/graph.gif)
+
+### Binary Search Tree
+![inline](./assets/binary.png)
+
+### Trie
+![inline](./assets/trie.jpg)
 
 ##How do I get started?
 1. Fork this repo
@@ -54,6 +63,7 @@ Remove x from test file to enable test
 - HashTable (resize)
 
 **Extra (untested) Bonus**
+- LinkedList (insert, removeItem, removePosition)
 - Tree (height)
 - Binary Search Tree (min, max, remove)
 - Priority Queue
