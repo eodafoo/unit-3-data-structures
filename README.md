@@ -4,7 +4,7 @@
 In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
 ### Stack
-![inline](./assets/stack.png =10x)
+![inline](./assets/stack.png)
 
 ### Queue
 ![inline](./assets/queue.png)
@@ -23,12 +23,6 @@ In this challenge, you will be creating data structures that are commonly use in
 
 ### Graph
 ![inline](./assets/graph.gif)
-
-### Binary Search Tree
-![inline](./assets/binary.png)
-
-### Trie
-![inline](./assets/trie.jpg)
 
 ##How do I get started?
 1. Fork this repo
@@ -60,7 +54,6 @@ Remove x from test file to enable test
 - HashTable (resize)
 
 **Extra (untested) Bonus**
-- LinkedList (insert, removeItem, removePosition)
 - Tree (height)
 - Binary Search Tree (min, max, remove)
 - Priority Queue
