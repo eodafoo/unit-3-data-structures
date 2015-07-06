@@ -4,7 +4,7 @@
 In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
 ### Stack
-<img src="./assets/stack.png" alt="Drawing" style="height: 200px;"/>
+![](./assets/stack.png =250x);
 
 ### Queue
 <img src="./assets/queue.png" alt="Drawing" style="height: 200px;"/>
