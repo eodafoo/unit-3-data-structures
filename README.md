@@ -4,34 +4,34 @@
 In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
 ### Stack
-![inline](./assets/stack.png)
+<img src="./assets/stack.png" alt="Drawing" style="height: 200px;"/>
 
 ### Queue
-![inline](./assets/queue.png)
+<img src="./assets/queue.png" alt="Drawing" style="height: 200px;"/>
 
 ### Set
-![inline](./assets/set.png)
+<img src="./assets/set.png" alt="Drawing" style="height: 200px;"/>
 
 ### LinkedList
-![inline](./assets/linked_list.png)
+<img src="./assets/linked_list.png" alt="Drawing" style="height: 200px;"/>
 
 ## Doubly LinkedList
-![inline](./assets/doubly_linked.PNG)
+<img src="./assets/doubly_linked.png" alt="Drawing" style="height: 200px;"/>
 
 ### Hash Table
-![inline](./assets/hash_table.png)
+<img src="./assets/hash_table.png" alt="Drawing" style="height: 200px;"/>
 
 ### Tree
-![inline](./assets/tree.png)
+<img src="./assets/tree.png" alt="Drawing" style="height: 200px;"/>
 
 ### Graph
-![inline](./assets/graph.gif)
+<img src="./assets/graph.gif" alt="Drawing" style="height: 200px;"/>
 
 ### Binary Search Tree
-![inline](./assets/binary.png)
+<img src="./assets/binary.png" alt="Drawing" style="height: 200px;"/>
 
 ### Trie
-![inline](./assets/trie.jpg)
+<img src="./assets/trie.jpg" alt="Drawing" style="height: 200px;"/>
 
 ##How do I get started?
 1. Fork this repo
