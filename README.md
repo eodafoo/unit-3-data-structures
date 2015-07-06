@@ -21,14 +21,14 @@ A data structure that specializes in determining if an object is present in a co
 
 ### LinkedList
 <img src="./assets/linked_list.png" height="200px"><br> 
-A data structure that serves as a collection of elements. Data is stored in nodes, and each node has a reference to the next node. In order to access elements from a linked-list, the first node (or head) is checked. If the element is not present in the first node, then the node that is referenced by the head (the second node) is checked. This action is repeated until the entire list is inspected. The two principle operations are push (or add) and contains. Push creates a new node and adds
+A data structure that serves as a collection of elements. Data is stored in nodes, and each node has a reference to the next node. In order to access elements from a linked list, the first node (or head) is checked. If the element is not present in the first node, then the node that is referenced by the head (the second node) is checked. This action is repeated until the entire list is inspected. The two principle operations are push (or add) and contains. Push creates a new node and adds
 it to the end of the list. Contains checks the entire list and determines if the element is present in any of the nodes.
 
 ### Hash Table
 <img src="./assets/hash_table.png" height="200px"><br>
 A data structure that stores key-value pairs (similar to the way an object works in javascript). The location in memory where the element is stored is determined by running the key through a hash function. The hash function accepts a key and returns an address where the element should be inserted/retrieved. 
 
-A common problem occurs when two distinct keys are converted to the same address - an occurance called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
+A common problem occurs when two distinct keys are converted to the same address - an occurrence called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
 
 ### Tree
 <img src="./assets/tree.png" height="200px"><br>
