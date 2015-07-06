@@ -5,52 +5,51 @@ In this challenge, you will be creating data structures that are commonly use in
 
 ### Stack
 <img src="./assets/stack.png" height="200px"><br>
-An abstract data type in which the first item put in is the last item taken out. It is a linear
-structure where insertion and deletion happen only at the "top of the stack".
+A data structure that serves as a collection of elements, with two principle operations: push and pop. Push adds an element to the collection. Pop removes the last element that was added. This data structure follows the "Last In, First Out" principle (LIFO), where the elements that were most recently pushed (added) to the stack, are popped off (removed) first.
+
+Think of a stack of pancakes - you add pancakes to the top of the stack and eat them from top to bottom.
 
 ### Queue
 <img src="./assets/queue.png" height="200px"><br>
-An abstract data type in which the last item put in is the first item taken out. It is a linear
-structure where insertion happens at the back of the queue, but deletion happens at the front of the queue.
+A data strucure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
+
+Think of a line for a roller coaster - the people that enter the line first, are the ones that get on the ride first.
 
 ### Set
 <img src="./assets/set.png" height="200px"><br>
-An unordered collection of distinct objects.
+A data structure that specializes in determining if an object is present in a collection or not. The two principle operations are add, which adds an element to the set, and contains, which determines if an element is present in the set. Elements present in the set are distinct, and adding duplicate elements does not increase the size of the set. 
 
 ### LinkedList
 <img src="./assets/linked_list.png" height="200px"><br> 
-A data structure consisting of nodes that are "linked" together in sequence. Each node holds
-a reference to the next node in the list.
-
-### Doubly LinkedList
-<img src="./assets/doubly_linked.PNG" height="200px"><br>
-A data structure consisting of nodes that are "linked" together in sequence. Each node holds
-a reference to both the previous and the next nodes in the list.
+A data structure that serves as a collection of elements. Data is stored in nodes, and each node has a reference to the next node. In order to access elements from a linked-list, the first node (or head) is checked. If the element is not present in the first node, then the node that is referenced by the head (the second node) is checked. This action is repeated until the entire list is inspected. The two principle operations are push (or add) and contains. Push creates a new node and adds
+it to the end of the list. Contains checks the entire list and determines if the element is present in any of the nodes.
 
 ### Hash Table
 <img src="./assets/hash_table.png" height="200px"><br>
-A data structure that maps keys to values and can efficiently find the value associated to a particular key. A hashtable uses a hash function to generate a hashcode for each key, which it uses to compute the bucket in which to store/find the value associated to the key. Collisions occur when keys are hashed to the same bucket. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
+A data structure that stores key-value pairs (similar to the way an object works in javascript). The location in memory where the element is stored is determined by running the key through a hash function. The hash function accepts a key and returns an address where the element should be inserted/retrieved. 
+
+A common problem occurs when two distinct keys are converted to the same address - an occurance called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
 
 ### Tree
 <img src="./assets/tree.png" height="200px"><br>
-A collection of nodes that grow downward, like an inverted tree. Each node can only have one parent
-and cycles/loops are not allowed.
+A data structure that stores elements in a hierarchical manner (an example would be if you were storing a family tree). Each element is stored in a node, and each node has a references to its children (the nodes below that node). Each node can only have one parent.
 
 ### Graph
 <img src="./assets/graph.gif" height="200px"><br>
-A collection of nodes/vertices, connected by edges. Each edge connects two vertices.
+A collection of nodes that have references to other nodes.
+
+A good use case of a graph would be to store data of people in a social network. Each node not only contains data about an person, but also a reference to another person. Retrieving a person's friends would only involve looking at one node's references to other nodes.  
 
 ### Binary Search Tree
 <img src="./assets/binary.png" height="200px"><br>
-A tree with the following constraints:
+Similar to a tree, except with a few constraints:
     * each node can only have up to 2 children
     * the left child must have a smaller value than its parent
     * the right child must have a greater value than its parent
 
-### Trie
-<img src="./assets/trie.jpg" height="200px"><br>
-Also known as a prefix tree. A tree structure that groups strings with common prefixes along the
-same branch.
+### Doubly LinkedList
+<img src="./assets/doubly_linked.PNG" height="200px"><br>
+Similar to a linked list with the addition that each node also has reference to the previous node.
 
 ##How do I get started?
 1. Fork this repo
@@ -81,7 +80,7 @@ Remove x from test file to enable test
 - DoublyLinked Lists
 - HashTable (resize)
 
-**Extra (untested) Bonus**
+**Extra Bonus**
 - LinkedList (insert, removeItem, removePosition)
 - Tree (height)
 - Binary Search Tree (min, max, remove)
