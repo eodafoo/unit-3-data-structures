@@ -16,7 +16,7 @@ In this challenge, you will be creating data structures that are commonly use in
 <img src="./assets/linked_list.png" height="200px"> 
 
 ## Doubly LinkedList
-<img src="./assets/doubly_linked.png" height="200px">
+<img src="./assets/doubly_linked.PNG" height="200px">
 
 ### Hash Table
 <img src="./assets/hash_table.png" height="200px">
