@@ -22,14 +22,14 @@ An unordered collection of distinct objects.
 A data structure consisting of nodes that are "linked" together in sequence. Each node holds
 a reference to the next node in the list.
 
-## Doubly LinkedList
+### Doubly LinkedList
 <img src="./assets/doubly_linked.PNG" height="200px">
 A data structure consisting of nodes that are "linked" together in sequence. Each node holds
 a reference to both the previous and the next nodes in the list.
 
 ### Hash Table
 <img src="./assets/hash_table.png" height="200px">
-A data structure that maps keys to values and can efficiently find the value associated to a particular key. A hashtable uses a hash function to generate hashes of keys, which it uses to store/find the values associated to the keys. 
+A data structure that maps keys to values and can efficiently find the value associated to a particular key. A hashtable uses a hash function to generate a hashcode for each key, which it uses to compute the bucket in which to store/find the value associated to the key. Collisions occur when keys are hashed to the same bucket. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
 
 ### Tree
 <img src="./assets/tree.png" height="200px">
@@ -38,14 +38,14 @@ and cycles/loops are not allowed.
 
 ### Graph
 <img src="./assets/graph.gif" height="200px">
-A collection of nodes/vertices, connected by edges.
+A collection of nodes/vertices, connected by edges. Each edge connects two vertices.
 
 ### Binary Search Tree
 <img src="./assets/binary.png" height="200px">
 A tree with the following constraints:
-    1. each node can only have up to 2 children
-    2. the left child must have a smaller value than its parent
-    3. the right child must have a greater value than its parent
+    - each node can only have up to 2 children
+    - the left child must have a smaller value than its parent
+    - the right child must have a greater value than its parent
 
 ### Trie
 <img src="./assets/trie.jpg" height="200px">
