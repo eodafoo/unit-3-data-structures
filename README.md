@@ -7,31 +7,31 @@ In this challenge, you will be creating data structures that are commonly use in
 <img src="./assets/stack.png" height="200px">
 
 ### Queue
-<img src="./assets/queue.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/queue.png" height="200px"> 
 
 ### Set
-<img src="./assets/set.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/set.png" height="200px"> 
 
 ### LinkedList
-<img src="./assets/linked_list.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/linked_list.png" height="200px"> 
 
 ## Doubly LinkedList
-<img src="./assets/doubly_linked.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/doubly_linked.png" height="200px">
 
 ### Hash Table
-<img src="./assets/hash_table.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/hash_table.png" height="200px">
 
 ### Tree
-<img src="./assets/tree.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/tree.png" height="200px">
 
 ### Graph
-<img src="./assets/graph.gif" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/graph.gif" height="200px">
 
 ### Binary Search Tree
-<img src="./assets/binary.png" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/binary.png" height="200px">
 
 ### Trie
-<img src="./assets/trie.jpg" alt="Drawing" style="height: 200px;"/>
+<img src="./assets/trie.jpg" height="200px">
 
 ##How do I get started?
 1. Fork this repo
