@@ -44,11 +44,11 @@ A good use case of a graph would be to store data of people in a social network.
 <img src="./assets/binary.png" height="200px"><br>
 Similar to a tree, except with a few constraints:
 
-    * each node can only have up to 2 children
+* each node can only have up to 2 children
 
-    * the left child must have a smaller value than its parent
+* the left child must have a smaller value than its parent
 
-    * the right child must have a greater value than its parent
+* the right child must have a greater value than its parent
 
 ### Doubly LinkedList
 <img src="./assets/doubly_linked.PNG" height="200px"><br>
@@ -93,4 +93,4 @@ Remove x from test file to enable test
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser
 
-** NOTE: While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
+* NOTE: While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
