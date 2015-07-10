@@ -8,10 +8,6 @@ Trie.prototype.insert = function(string) {
 
 }
 
-Trie.prototype.insertSingle = function(node, string, i) {
-
-}
-
 // Returns true or false, depending on whether the word/prefix is contained in the tree
 Trie.prototype.find = function(string) {
 
