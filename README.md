@@ -3,7 +3,7 @@
 ##Summary
 In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
-### Stack
+[### Stack]()
 <img src="./assets/stack.png" height="200px"><br>
 An abstract data type in which the first item put in is the last item taken out. It is a linear
 structure where insertion and deletion happen only at the "top of the stack".
