@@ -3,51 +3,51 @@
 ##Summary
 In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
-###[Stack]()
+###[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 <img src="./assets/stack.png" height="200px"><br>
 An abstract data type in which the first item put in is the last item taken out. It is a linear
 structure where insertion and deletion happen only at the "top of the stack".
 
-### Queue
+###[Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 <img src="./assets/queue.png" height="200px"><br>
 An abstract data type in which the last item put in is the first item taken out. It is a linear
 structure where insertion happens at the back of the queue, but deletion happens at the front of the queue.
 
-### Set
+###[Set](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
 <img src="./assets/set.png" height="200px"><br>
 An unordered collection of distinct objects.
 
-### LinkedList
+###[LinkedList](https://en.wikipedia.org/wiki/Linked_list)
 <img src="./assets/linked_list.png" height="200px"><br> 
 A data structure consisting of nodes that are "linked" together in sequence. Each node holds
 a reference to the next node in the list.
 
-### Doubly LinkedList
+###[Doubly LinkedList](https://en.wikipedia.org/wiki/Doubly_linked_list)
 <img src="./assets/doubly_linked.PNG" height="200px"><br>
 A data structure consisting of nodes that are "linked" together in sequence. Each node holds
 a reference to both the previous and the next nodes in the list.
 
-### Hash Table
+###[Hash Table](https://en.wikipedia.org/wiki/Hash_table)
 <img src="./assets/hash_table.png" height="200px"><br>
 A data structure that maps keys to values and can efficiently find the value associated to a particular key. A hashtable uses a hash function to generate a hashcode for each key, which it uses to compute the bucket in which to store/find the value associated to the key. Collisions occur when keys are hashed to the same bucket. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
 
-### Tree
+###[Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
 <img src="./assets/tree.png" height="200px"><br>
 A collection of nodes that grow downward, like an inverted tree. Each node can only have one parent
 and cycles/loops are not allowed.
 
-### Graph
+###[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 <img src="./assets/graph.gif" height="200px"><br>
 A collection of nodes/vertices, connected by edges. Each edge connects two vertices.
 
-### Binary Search Tree
+###[Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 <img src="./assets/binary.png" height="200px"><br>
 A tree with the following constraints:
     * each node can only have up to 2 children
     * the left child must have a smaller value than its parent
     * the right child must have a greater value than its parent
 
-### Trie
+###[Trie](https://en.wikipedia.org/wiki/Trie)
 <img src="./assets/trie.jpg" height="200px"><br>
 Also known as a prefix tree. A tree structure that groups strings with common prefixes along the
 same branch.
