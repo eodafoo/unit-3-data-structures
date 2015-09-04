@@ -82,26 +82,17 @@ Similar to a linked list with the addition that each node also has reference to 
 
  - Graph
 
-**Bonus**
-Remove x from test file to enable test
- - Binary Search Tree
-
- - LinkedList (addToHead method)
- 
- - DoublyLinked Lists
-
- - HashTable (resize)
-
-**Extra Bonus**
- - LinkedList (insert, removeItem, removePosition)
-
- - Tree (height)
-
- - Binary Search Tree (min, max, remove)
-
- - Priority Queue
-
- - Trie
+##Extension Challenges
+  Remove x from test file to enable test
+   1. Binary Search Tree
+   1. LinkedList (addToHead method)
+   1. DoublyLinked Lists
+   1. HashTable (resize)
+   1. LinkedList (insert, removeItem, removePosition)
+   1. Tree (height)
+   1. Binary Search Tree (min, max, remove)
+   1. Priority Queue
+   1. Trie
 
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser

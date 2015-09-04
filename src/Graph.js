@@ -13,7 +13,7 @@ Graph.prototype.contains = function(value) {
 
 }
 
-//removes a set value from the graph
+// removes a given value from the graph
 Graph.prototype.remove = function(value) {
 
 }
