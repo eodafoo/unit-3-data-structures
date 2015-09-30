@@ -52,7 +52,7 @@ xdescribe('LinkedList', function() {
     expect(list.head.value).to.eql(0);
     expect(list.head.next.value).to.eql(1);
     expect(list.head.next.next.value).to.eql(2);
-    expect(list.head.next.next.next.next).to.eql(null);
+    expect(list.head.next.next.next).to.eql(null);
     list.addToHead(3);
     expect(list.head.value).to.eql(3);
     expect(list.head.next.value).to.eql(0);
@@ -92,4 +92,3 @@ describe('Doubly Linked List', function() {
     expect(list.head.next).to.equal(list.head.next.next.back);
   });
 });
-
