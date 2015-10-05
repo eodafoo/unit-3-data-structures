@@ -83,14 +83,23 @@ Similar to a linked list with the addition that each node also has reference to 
   - [ ] Implement the ```.remove``` method, which removes an element from the set if present
 
 - LinkedList
-  - [ ] Implement ```.push``` method, which adds a node to the end of the linked list
-  - [ ] Implement ```.contains``` method, which determines if a value is present in the list
+  - [ ] Implement the ```.push``` method, which adds a node to the end of the linked list
+  - [ ] Implement the ```.contains``` method, which determines if a value is present in the list
 
 - HashTable
+  - [ ] Implement the ```.get``` method, which
+  - [ ] Implement the ```.set``` method,
+  - [ ] Implement the ```.remove``` method,
 
 - Tree
+  - [ ] Implement the ```.add``` method,
+  - [ ] Implement the ```.contains``` method,
 
 - Graph
+  - [ ] Implement the ```.addNode``` method,
+  - [ ] Implement the ```.contains``` method,
+  - [ ] Implement the ```.remove``` method,
+
 
 ##Extension Challenges
   Remove x from test file to enable test
