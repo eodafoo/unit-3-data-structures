@@ -70,14 +70,21 @@ Similar to a linked list with the addition that each node also has reference to 
 
 - Stack
 
-  - [ ] Implement the push method ```.push```, which adds an element to the top of the stack
-  - [ ] Implement the pop method ```.pop```, which removes and returns an element from the top of the stack
+  - [ ] Implement the ```.push``` method, which adds an element to the top of the stack
+  - [ ] Implement the ```.pop``` method, which removes and returns an element from the top of the stack
 
 - Queue
+  - [ ] Implement the ```.enqueue``` method, which adds an element to the front of the queue
+  - [ ] Implement the ```.dequeue``` method, which removes and returns an element at the end of the queue
 
 - Set
+  - [ ] Implement the ```.add``` method, which adds an element to the set (does not add an object if the object is already present in set)
+  - [ ] Implement the ```.contains``` method, which determines if an element in present in a set
+  - [ ] Implement the ```.remove``` method, which removes an element from the set if present
 
 - LinkedList
+  - [ ] Implement ```.push``` method, which adds a node to the end of the linked list
+  - [ ] Implement ```.contains``` method, which determines if a value is present in the list
 
 - HashTable
 
