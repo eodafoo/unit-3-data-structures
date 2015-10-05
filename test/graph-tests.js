@@ -18,6 +18,21 @@ describe('Graph', function() {
     graph.addNode(1);
     graph.edges[0].addNode(2);
     expect(graph.contains(2)).to.eql(true);
-  })
+  });
+
+  it('should remove node', function() {
+    graph.addNode(1);
+    expect(graph.contains(1)).to.eql(true);
+    graph.remove(1);
+    expect(graph.contains(1)).to.eql(false);
+  });
+
+  it('should remove all nodes with inputted value', function() {
+    graph.addNode(1);
+    graph.addNode(1);
+    expect(graph.contains(1)).to.eql(true);
+    graph.remove(1);
+    expect(graph.contains(1)).to.eql(false);
+  });
 
 });

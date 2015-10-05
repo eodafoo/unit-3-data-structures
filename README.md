@@ -66,10 +66,11 @@ Similar to a linked list with the addition that each node also has reference to 
   git clone *github url
   ````
 
-3. Complete the challenge in located in src/ directory. We recommend completing creating the data structure in the following order (the order they appear in the tests):
+##Challenges
+
+1. Complete the challenge in located in ```src/ directory```. We recommend completing creating the data structure in the following order (the order they appear in the tests):
 
 - Stack
-
   - [ ] Implement the ```.push``` method, which adds an element to the top of the stack
   - [ ] Implement the ```.pop``` method, which removes and returns an element from the top of the stack
 
@@ -87,31 +88,58 @@ Similar to a linked list with the addition that each node also has reference to 
   - [ ] Implement the ```.contains``` method, which determines if a value is present in the list
 
 - HashTable
-  - [ ] Implement the ```.get``` method, which
-  - [ ] Implement the ```.set``` method,
-  - [ ] Implement the ```.remove``` method,
+  - [ ] Implement the ```.get``` method, which retrieves a value that was previously inserted in the hash table
+  - [ ] Implement the ```.set``` method, which sets a value to the hash table
+  - [ ] Implement the ```.remove``` method, which removes a value from the hash table
 
 - Tree
-  - [ ] Implement the ```.add``` method,
-  - [ ] Implement the ```.contains``` method,
+  - [ ] Implement the ```.add``` method, which adds a value to the tree
+  - [ ] Implement the ```.contains``` method, which determines if a value is contained in the list
 
 - Graph
-  - [ ] Implement the ```.addNode``` method,
-  - [ ] Implement the ```.contains``` method,
-  - [ ] Implement the ```.remove``` method,
+  - [ ] Implement the ```.addNode``` method, which adds a node to the current node
+  - [ ] Implement the ```.contains``` method, which determines if a value is contained in a graph
+  - [ ] Implement the ```.remove``` method, which removes all nodes with that value
 
 
 ##Extension Challenges
-  Remove x from test file to enable test
-   1. Binary Search Tree
-   1. LinkedList (addToHead method)
-   1. DoublyLinked Lists
-   1. HashTable (resize)
-   1. LinkedList (insert, removeItem, removePosition)
-   1. Tree (height)
-   1. Binary Search Tree (min, max, remove)
-   1. Priority Queue
-   1. Trie
+Remove x from test file to enable test
+
+  - Binary Search Tree
+    - [ ] Implement the ```.add``` method, which add
+    - [ ] Implement the ```.contains``` method,
+    - [ ] Implement the ```.depthFirstPre``` method,
+    - [ ] Implement the ```.depthFirstIn``` method,
+    - [ ] Implement the ```.depthFirstPost``` method,
+    - [ ] Implement the ```.breadthFirst``` method,
+
+  - LinkedList (addToHead method)
+    - [ ] Implement the ```.addToHead``` method,
+    - [ ] Implement the ```.insert``` method,
+    - [ ] Implement the ```.removeItem``` method,
+    - [ ] Implement the ```.removePosition``` method,
+
+  - DoublyLinked Lists
+    - [ ] Refactor the LinkedList class to make it a doubly linked list
+
+  - HashTable (resize)
+    - [ ] Resizing so
+
+  - Tree
+    - [ ] Implement the ```.height``` method, which
+
+  - Binary Search Tree (min, max, remove)
+    - [ ] Implement the ```.min``` method,
+    - [ ] Implement the ```.max``` method,
+    - [ ] Implement the ```.remove``` method,
+
+  - Priority Queue
+    - [ ] Implement the ```.enqueue``` method,
+    - [ ] Implement the ```.dequeue``` method,
+
+  - Trie
+    - [ ] Implement the ```.insert``` method,
+    - [ ] Implement the ```.find``` method,
 
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser
