@@ -17,18 +17,18 @@ Think of a line for a roller coaster - the people that enter the line first, are
 
 ###[Set](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
 <img src="./assets/set.png" height="200px"><br>
-A data structure that specializes in determining if an object is present in a collection or not. The two principle operations are add, which adds an element to the set, and contains, which determines if an element is present in the set. Elements present in the set are distinct, and adding duplicate elements does not increase the size of the set. 
+A data structure that specializes in determining if an object is present in a collection or not. The two principle operations are add, which adds an element to the set, and contains, which determines if an element is present in the set. Elements present in the set are distinct, and adding duplicate elements does not increase the size of the set.
 
 ###[LinkedList](https://en.wikipedia.org/wiki/Linked_list)
-<img src="./assets/linked_list.png" height="200px"><br> 
+<img src="./assets/linked_list.png" height="200px"><br>
 A data structure that serves as a collection of elements. Data is stored in nodes, and each node has a reference to the next node. In order to access elements from a linked list, the first node (or head) is checked. If the element is not present in the first node, then the node that is referenced by the head (the second node) is checked. This action is repeated until the entire list is inspected. The two principle operations are push (or add) and contains. Push creates a new node and adds
 it to the end of the list. Contains checks the entire list and determines if the element is present in any of the nodes.
 
 ###[Hash Table](https://en.wikipedia.org/wiki/Hash_table)
 <img src="./assets/hash_table.png" height="200px"><br>
-A data structure that stores key-value pairs (similar to the way an object works in javascript). The location in memory where the element is stored is determined by running the key through a hash function. The hash function accepts a key and returns an address where the element should be inserted/retrieved. 
+A data structure that stores key-value pairs (similar to the way an object works in javascript). The location in memory where the element is stored is determined by running the key through a hash function. The hash function accepts a key and returns an address where the element should be inserted/retrieved.
 
-A common problem occurs when two distinct keys are converted to the same address - an occurrence called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.  
+A common problem occurs when two distinct keys are converted to the same address - an occurrence called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.
 
 ###[Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
 <img src="./assets/tree.png" height="200px"><br>
@@ -38,7 +38,7 @@ A data structure that stores elements in a hierarchical manner (an example would
 <img src="./assets/graph.gif" height="200px"><br>
 A collection of nodes that have references to other nodes.
 
-A good use case of a graph would be to store data of people in a social network. Each node not only contains data about an person, but also a reference to another person. Retrieving a person's friends would only involve looking at one node's references to other nodes.  
+A good use case of a graph would be to store data of people in a social network. Each node not only contains data about an person, but also a reference to another person. Retrieving a person's friends would only involve looking at one node's references to other nodes.
 
 ###[Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 <img src="./assets/binary.png" height="200px"><br>
@@ -68,19 +68,22 @@ Similar to a linked list with the addition that each node also has reference to 
 
 3. Complete the challenge in located in src/ directory. We recommend completing creating the data structure in the following order (the order they appear in the tests):
 
- - Stack
+- Stack
 
- - Queue
+  - [ ] Implement the push method ```.push```, which adds an element to the top of the stack
+  - [ ] Implement the pop method ```.pop```, which removes and returns an element from the top of the stack
 
- - Set
+- Queue
 
- - LinkedList
+- Set
 
- - HashTable
+- LinkedList
 
- - Tree
+- HashTable
 
- - Graph
+- Tree
+
+- Graph
 
 ##Extension Challenges
   Remove x from test file to enable test
