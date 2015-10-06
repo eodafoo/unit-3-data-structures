@@ -106,7 +106,7 @@ Similar to a linked list with the addition that each node also has reference to 
 Remove x from test file to enable test
 
   - Binary Search Tree
-    - [ ] Implement the ```.add``` method, which add
+    - [ ] Implement the ```.add``` method, which adds an element to the
     - [ ] Implement the ```.contains``` method,
     - [ ] Implement the ```.depthFirstPre``` method,
     - [ ] Implement the ```.depthFirstIn``` method,
