@@ -106,40 +106,40 @@ Similar to a linked list with the addition that each node also has reference to 
 Remove x from test file to enable test
 
   - Binary Search Tree
-    - [ ] Implement the ```.add``` method, which adds an element to the
-    - [ ] Implement the ```.contains``` method,
-    - [ ] Implement the ```.depthFirstPre``` method,
-    - [ ] Implement the ```.depthFirstIn``` method,
-    - [ ] Implement the ```.depthFirstPost``` method,
-    - [ ] Implement the ```.breadthFirst``` method,
+    - [ ] Implement the ```.add``` method, which adds an element to the binary searchTree
+    - [ ] Implement the ```.contains``` method, which determines if a value is contained in the tree
+    - [ ] Implement the ```.depthFirstPre``` method, which applies a callback in depth first (preorder)
+    - [ ] Implement the ```.depthFirstIn``` method, which applies a callback in depth first (inorder)
+    - [ ] Implement the ```.depthFirstPost``` method, which applies a callback in depth first (postorder)
+    - [ ] Implement the ```.breadthFirst``` method, which applies a callback in breadth first
 
   - LinkedList (addToHead method)
-    - [ ] Implement the ```.addToHead``` method,
-    - [ ] Implement the ```.insert``` method,
-    - [ ] Implement the ```.removeItem``` method,
-    - [ ] Implement the ```.removePosition``` method,
+    - [ ] Implement the ```.addToHead``` method, which adds an element to the beginning of the list
+    - [ ] Implement the ```.insert``` method, which adds an element anywhere in the list
+    - [ ] Implement the ```.removeItem``` method, which removes the first occurrence of an element in a list
+    - [ ] Implement the ```.removePosition``` method, which removes the element at a specific position
 
   - DoublyLinked Lists
     - [ ] Refactor the LinkedList class to make it a doubly linked list
 
   - HashTable (resize)
-    - [ ] Resizing so
+    - [ ] Adds a feature where the storage of the hash table is doubled when 75% of the storage is filled and shrinks when less than 25% of the current storage is filled
 
   - Tree
-    - [ ] Implement the ```.height``` method, which
+    - [ ] Implement the ```.height``` method, which calculates the height of the tree
 
   - Binary Search Tree (min, max, remove)
-    - [ ] Implement the ```.min``` method,
-    - [ ] Implement the ```.max``` method,
-    - [ ] Implement the ```.remove``` method,
+    - [ ] Implement the ```.min``` method, which returns the min value in the tree
+    - [ ] Implement the ```.max``` method, which returns the max value in the tree
+    - [ ] Implement the ```.remove``` method, which removes an element from the tree
 
   - Priority Queue
-    - [ ] Implement the ```.enqueue``` method,
-    - [ ] Implement the ```.dequeue``` method,
+    - [ ] Implement the ```.enqueue``` method, which adds an element to the front of the priority queue
+    - [ ] Implement the ```.dequeue``` method, which removes an element from the front of the priority queue
 
   - Trie
-    - [ ] Implement the ```.insert``` method,
-    - [ ] Implement the ```.find``` method,
+    - [ ] Implement the ```.insert``` method, which inserts an element into the trie
+    - [ ] Implement the ```.find``` method, which determines if the word/prefix is present in the tree
 
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser
