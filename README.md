@@ -1,7 +1,16 @@
 #Data Structure
 
+##Introduction
+
+In this challenge, you will be creating data structures that are commonly use in software engineering. Understanding data structures allows engineers to store their data in optimal formats. A description of each data structure is provided in the [Summary](#summary). Feel free to look online for additional information about each structure.
+
+Learning goals
+
+- Understand pseudoclassical inheritance pattern
+- Understand the use case of data structures provided in challenges
+- Can reimplement data structures provided in challenges
+
 ##Summary
-In this challenge, you will be creating data structures that are commonly use in software engineering. A description of each data structure is provided below. Feel free to look online for additional information about each structure.
 
 ###[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 <img src="./assets/stack.png" height="200px"><br>
