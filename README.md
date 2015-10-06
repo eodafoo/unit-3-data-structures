@@ -68,7 +68,7 @@ Similar to a linked list with the addition that each node also has reference to 
 
 ##Challenges
 
-1. Complete the challenge in located in ```src/ directory```. We recommend completing creating the data structure in the following order (the order they appear in the tests):
+Complete the challenge in located in ```src/ directory```. We recommend completing the data structure in the following order (the order they appear in the tests):
 
 - Stack
   - [ ] Implement the ```.push``` method, which adds an element to the top of the stack
