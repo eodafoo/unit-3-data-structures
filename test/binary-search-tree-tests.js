@@ -31,15 +31,37 @@ describe('binarySearchTree', function() {
     expect(binarySearchTree.contains(8)).to.equal(false);
   });
 
-  it('should execute a callback on every value in a tree using "depthFirst"', function(){
+  it('should execute a callback on every value in a tree using "depthFirstPre"', function(){
     var array = [];
     var func = function(value){ array.push(value); };
     binarySearchTree.add(2);
     binarySearchTree.add(3);
     binarySearchTree.add(7);
     binarySearchTree.add(6);
-    binarySearchTree.depthFirst(func);
+    binarySearchTree.depthFirstPre(func);
     expect(array).to.eql([5,2,3,7,6]);
+  });
+
+  it('should execute a callback on every value in a tree using "depthFirstIn"', function(){
+    var array = [];
+    var func = function(value){ array.push(value); };
+    binarySearchTree.add(2);
+    binarySearchTree.add(3);
+    binarySearchTree.add(7);
+    binarySearchTree.add(6);
+    binarySearchTree.depthFirstIn(func);
+    expect(array).to.eql([2,3,5,6,7]);
+  });
+
+  it('should execute a callback on every value in a tree using "depthFirstPost"', function(){
+    var array = [];
+    var func = function(value){ array.push(value); };
+    binarySearchTree.add(2);
+    binarySearchTree.add(3);
+    binarySearchTree.add(7);
+    binarySearchTree.add(6);
+    binarySearchTree.depthFirstPost(func);
+    expect(array).to.eql([3,2,6,7,5]);
   });
 
   it('should execute a callback on every value in a tree using "breadthFirst"', function(){
@@ -49,7 +71,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(3);
     binarySearchTree.add(7);
     binarySearchTree.add(6);
-    binarySearchTree.depthFirstPre(func);
+    binarySearchTree.breadthFirst(func);
     expect(array).to.eql([5,2,7,3,6]);
   });
 });
