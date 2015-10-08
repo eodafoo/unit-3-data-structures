@@ -26,7 +26,7 @@ describe('Graph', function() {
     expect(graph.contains(15)).to.be.false;
   });
 
-  it('should add edges to graph', function() {
+  xit('should add edges to graph', function() {
     expect(graph.contains(1337)).to.be.false;
     expect(graph.contains(9001)).to.be.false;
     nodes[7].addNode(1337)
@@ -35,7 +35,7 @@ describe('Graph', function() {
     expect(graph.contains(9001)).to.be.true;
   });
 
-  it('should remove node', function() {
+  xit('should remove node', function() {
     expect(graph.contains(3)).to.be.true;
     expect(graph.contains(5)).to.be.true;
     graph.remove(5);
@@ -44,7 +44,7 @@ describe('Graph', function() {
     expect(graph.contains(3)).to.be.false;
   });
 
-  it('should remove all nodes with inputted value', function() {
+  xit('should remove all nodes with inputted value', function() {
     expect(graph.contains(10)).to.be.true;
     graph.addNode(10);
     graph.addNode(10);
