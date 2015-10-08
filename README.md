@@ -154,3 +154,4 @@ Remove x from test file to enable test
 * To test your functions, open index.html in your browser
 
 * NOTE: While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
+* **Pending tests.** Some of the bonus tests (highlighted blue) are considered "pending" and will not run. In order to enable them, go into the test file and remove the 'x' from in front of the `describe` or `it` function for the corresponding tests.
