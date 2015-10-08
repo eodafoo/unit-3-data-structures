@@ -5,11 +5,9 @@ describe('binarySearchTree', function() {
     binarySearchTree = new BinarySearchTree(5);
   });
 
-  it('should have methods named "add", "contains", "depthFirstPre", "depthFirstIn", "depthFirstPost", "breadthFirst"', function() {
+  it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
-    expect(binarySearchTree.depthFirstIn).to.be.a("function");
-    expect(binarySearchTree.depthFirstPost).to.be.a("function");
     expect(binarySearchTree.depthFirstPre).to.be.a("function");
     expect(binarySearchTree.breadthFirst).to.be.a("function");
   });
@@ -39,7 +37,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(7);
     binarySearchTree.add(6);
     binarySearchTree.depthFirstPre(func);
-    expect(array).to.eql([5,2,3,7,6]);
+    expect(array).to.eql([5,2,3,6,7]);
   });
 
   it('should execute a callback on every value in a tree using "depthFirstIn"', function(){
@@ -61,7 +59,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(7);
     binarySearchTree.add(6);
     binarySearchTree.depthFirstPost(func);
-    expect(array).to.eql([3,2,6,7,5]);
+    expect(array).to.eql([ 2, 3, 6, 7, 5 ]);
   });
 
   it('should execute a callback on every value in a tree using "breadthFirst"', function(){
