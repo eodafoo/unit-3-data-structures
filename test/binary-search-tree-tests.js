@@ -5,7 +5,7 @@ describe('binarySearchTree', function() {
     binarySearchTree = new BinarySearchTree(5);
   });
 
-  it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
+  it('should have methods named "add", "contains", "depthFirstPre", "depthFirstIn", "depthFirstPost", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
     expect(binarySearchTree.depthFirstPre).to.be.a("function");
