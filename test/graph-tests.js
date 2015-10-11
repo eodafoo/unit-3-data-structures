@@ -17,39 +17,39 @@ describe('Graph', function() {
   });
 
   it('should find nodes using the contains method', function() {
-    expect(graph.contains(0)).to.be.true;
-    expect(graph.contains(3)).to.be.true;
-    expect(graph.contains(5)).to.be.true;
-    expect(graph.contains(6)).to.be.true;
-    expect(graph.contains(10)).to.be.true;
-    expect(graph.contains(7)).to.be.true;
-    expect(graph.contains(15)).to.be.false;
+    expect(graph.contains(0)).to.be(true);
+    expect(graph.contains(3)).to.be(true);
+    expect(graph.contains(5)).to.be(true);
+    expect(graph.contains(6)).to.be(true);
+    expect(graph.contains(10)).to.be(true);
+    expect(graph.contains(7)).to.be(true);
+    expect(graph.contains(15)).to.be(false);
   });
 
   xit('should add edges to graph', function() {
-    expect(graph.contains(1337)).to.be.false;
-    expect(graph.contains(9001)).to.be.false;
+    expect(graph.contains(1337)).to.be(false);
+    expect(graph.contains(9001)).to.be(false);
     nodes[7].addNode(1337)
-    expect(graph.contains(1337)).to.be.true;
+    expect(graph.contains(1337)).to.be(true);
     nodes[10].addNode(9001)
-    expect(graph.contains(9001)).to.be.true;
+    expect(graph.contains(9001)).to.be(true);
   });
 
   xit('should remove node', function() {
-    expect(graph.contains(3)).to.be.true;
-    expect(graph.contains(5)).to.be.true;
+    expect(graph.contains(3)).to.be(true);
+    expect(graph.contains(5)).to.be(true);
     graph.remove(5);
-    expect(graph.contains(5)).to.be.false;
+    expect(graph.contains(5)).to.be(false);
     graph.remove(3);
-    expect(graph.contains(3)).to.be.false;
+    expect(graph.contains(3)).to.be(false);
   });
 
   xit('should remove all nodes with inputted value', function() {
-    expect(graph.contains(10)).to.be.true;
+    expect(graph.contains(10)).to.be(true);
     graph.addNode(10);
     graph.addNode(10);
     graph.remove(10);
-    expect(graph.contains(10)).to.be.false;
+    expect(graph.contains(10)).to.be(false);
   });
 
 });
