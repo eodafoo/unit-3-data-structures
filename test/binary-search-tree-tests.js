@@ -39,7 +39,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(7);
     binarySearchTree.add(6);
     binarySearchTree.depthFirstPre(func);
-    expect(array).to.eql([ 5, 2, 3, 6, 7 ]);
+    expect(array).to.eql([ 5, 2, 3, 7, 6 ]);
   });
 
   it('should execute a callback on every value in a tree using "depthFirstIn"', function(){
@@ -61,7 +61,7 @@ describe('binarySearchTree', function() {
     binarySearchTree.add(7);
     binarySearchTree.add(6);
     binarySearchTree.depthFirstPost(func);
-    expect(array).to.eql([ 2, 3, 6, 7, 5 ]);
+    expect(array).to.eql([ 3, 2, 6, 7, 5 ]);
   });
 
   it('should execute a callback on every value in a tree using "breadthFirst"', function(){
