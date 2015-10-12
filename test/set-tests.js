@@ -1,7 +1,7 @@
 var set;
-describe('Set', function() {
+describe('MySet', function() {
   beforeEach(function() {
-    set = new Set();
+    set = new MySet();
   });
 
   it('should add values to set', function() {
