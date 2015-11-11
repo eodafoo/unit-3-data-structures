@@ -10,17 +10,17 @@ function HashTable() {
 // hint: use the hash function to determine where in the array to store the value
 HashTable.prototype.set = function(key, value) {
 
-}
+};
 
 // return a previously stored value
 HashTable.prototype.get = function(key) {
 
-}
+};
 
 // returns and removes a key from the hash table
 HashTable.prototype.remove = function(key) {
 
-}
+};
 
 // returns a number between 0 and size that is unique* and generated from the the inputted string
 function hashCode(string, size){

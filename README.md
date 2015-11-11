@@ -6,9 +6,9 @@ In this challenge, you will be creating data structures that are commonly use in
 
 Learning goals
 
-- Understand pseudoclassical inheritance pattern
+- Understand [pseudoclassical inheritance pattern](http://davidshariff.com/blog/javascript-inheritance-patterns/)
 - Understand the use case of data structures provided in challenges
-- Can reimplement data structures provided in challenges
+- Be able to reimplement data structures provided in challenges
 
 ##Summary
 
@@ -106,6 +106,9 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.set``` method, which sets a value to the hash table
   - [ ] Implement the ```.remove``` method, which removes a value from the hash table
 
+##Extension Challenges
+Note: not all extension challenges have tests, but some do. Some tests that are here are disabled by default so you'll need to enable them to check your work. To enable them, open up the appropriate test file in the `/test` directory and change `xit` to `it` in order to turn on the disabled tests.
+
 - Tree
   - [ ] Implement the ```.add``` method, which adds a value to the tree
   - [ ] Implement the ```.contains``` method, which determines if a value is contained in the list
@@ -115,45 +118,43 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.contains``` method, which determines if a value is contained in a graph
   - [ ] Implement the ```.remove``` method, which removes all nodes with that value
 
+- Binary Search Tree
+  - [ ] Implement the ```.add``` method, which adds an element to the binary searchTree
+  - [ ] Implement the ```.contains``` method, which determines if a value is contained in the tree
+  - [ ] Implement the ```.depthFirstPre``` method, which applies a callback in depth first (preorder)
+  - [ ] Implement the ```.depthFirstIn``` method, which applies a callback in depth first (inorder)
+  - [ ] Implement the ```.depthFirstPost``` method, which applies a callback in depth first (postorder)
+  - [ ] Implement the ```.breadthFirst``` method, which applies a callback in breadth first
 
-##Extension Challenges
-Remove x from test file to enable test
+- LinkedList (addToHead method)
+  - [ ] Implement the ```.addToHead``` method, which adds an element to the beginning of the list
+  - [ ] Implement the ```.insert``` method, which adds an element anywhere in the list
+  - [ ] Implement the ```.removeItem``` method, which removes the first occurrence of an element in a list
+  - [ ] Implement the ```.removePosition``` method, which removes the element at a specific position
 
-  - Binary Search Tree
-    - [ ] Implement the ```.add``` method, which adds an element to the binary searchTree
-    - [ ] Implement the ```.contains``` method, which determines if a value is contained in the tree
-    - [ ] Implement the ```.depthFirstPre``` method, which applies a callback in depth first (preorder)
-    - [ ] Implement the ```.depthFirstIn``` method, which applies a callback in depth first (inorder)
-    - [ ] Implement the ```.depthFirstPost``` method, which applies a callback in depth first (postorder)
-    - [ ] Implement the ```.breadthFirst``` method, which applies a callback in breadth first
+- DoublyLinked Lists
+  - [ ] Refactor the LinkedList class to make it a doubly linked list
 
-  - LinkedList (addToHead method)
-    - [ ] Implement the ```.addToHead``` method, which adds an element to the beginning of the list
-    - [ ] Implement the ```.insert``` method, which adds an element anywhere in the list
-    - [ ] Implement the ```.removeItem``` method, which removes the first occurrence of an element in a list
-    - [ ] Implement the ```.removePosition``` method, which removes the element at a specific position
+- HashTable (resize)
+  - [ ] Adds a feature where the storage of the hash table is doubled when 75% of the storage is filled and shrinks when less than 25% of the current storage is filled
 
-  - DoublyLinked Lists
-    - [ ] Refactor the LinkedList class to make it a doubly linked list
+- Tree
+  - [ ] Implement the ```.height``` method, which calculates the height of the tree
 
-  - HashTable (resize)
-    - [ ] Adds a feature where the storage of the hash table is doubled when 75% of the storage is filled and shrinks when less than 25% of the current storage is filled
+- Binary Search Tree (min, max, remove)
+  - [ ] Implement the ```.min``` method, which returns the min value in the tree
+  - [ ] Implement the ```.max``` method, which returns the max value in the tree
+  - [ ] Implement the ```.height``` method, which returns the [height](http://www.comp.dit.ie/rlawlor/Alg_DS/searching/3.%20%20Binary%20Search%20Tree%20-%20Height.pdf) of the tree
+  - [ ] Implement the ```.remove``` method, which removes an element from the tree
+  - [ ] Refactor your ```.add``` method so that your Binary Search Tree is [self-balancing](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
-  - Tree
-    - [ ] Implement the ```.height``` method, which calculates the height of the tree
+- Priority Queue
+  - [ ] Implement the ```.enqueue``` method, which adds an element to the front of the priority queue
+  - [ ] Implement the ```.dequeue``` method, which removes an element from the front of the priority queue
 
-  - Binary Search Tree (min, max, remove)
-    - [ ] Implement the ```.min``` method, which returns the min value in the tree
-    - [ ] Implement the ```.max``` method, which returns the max value in the tree
-    - [ ] Implement the ```.remove``` method, which removes an element from the tree
-
-  - Priority Queue
-    - [ ] Implement the ```.enqueue``` method, which adds an element to the front of the priority queue
-    - [ ] Implement the ```.dequeue``` method, which removes an element from the front of the priority queue
-
-  - Trie
-    - [ ] Implement the ```.insert``` method, which inserts an element into the trie
-    - [ ] Implement the ```.find``` method, which determines if the word/prefix is present in the tree
+- Trie
+  - [ ] Implement the ```.insert``` method, which inserts an element into the trie
+  - [ ] Implement the ```.find``` method, which determines if the word/prefix is present in the tree
 
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser

@@ -29,9 +29,9 @@ describe('Graph', function() {
   xit('should add edges to graph', function() {
     expect(graph.contains(1337)).to.be(false);
     expect(graph.contains(9001)).to.be(false);
-    nodes[7].addNode(1337)
+    nodes[7].addNode(1337);
     expect(graph.contains(1337)).to.be(true);
-    nodes[10].addNode(9001)
+    nodes[10].addNode(9001);
     expect(graph.contains(9001)).to.be(true);
   });
 

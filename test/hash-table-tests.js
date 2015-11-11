@@ -51,7 +51,7 @@ describe('HashTable', function() {
     for (var i = 0; i < 13; i++) {
       var key = 'key ' + i;
       var value = 'value ' + i;
-      hashTable.set(key, value)
+      hashTable.set(key, value);
     }
     expect(hashTable.SIZE).to.equal(32);
   });
@@ -60,7 +60,7 @@ describe('HashTable', function() {
     for (var i = 0; i < 13; i++) {
       var key = 'key ' + i;
       var value = 'value ' + i;
-      hashTable.set(key, value)
+      hashTable.set(key, value);
     }
     expect(hashTable.SIZE).to.equal(32);
     for (var i = 0; i < 5; i++) {

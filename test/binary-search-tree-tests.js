@@ -74,4 +74,34 @@ describe('binarySearchTree', function() {
     binarySearchTree.breadthFirst(func);
     expect(array).to.eql([5,2,7,3,6]);
   });
+  
+  // remove x to enable test
+  xit('height method should return correct height', function() {
+    binarySearchTree.left = new BinarySearchTree(3);
+    binarySearchTree.left.left = new BinarySearchTree(1);
+    expect(binarySearchTree.height()).to.eql(2);
+    
+    binarySearchTree.left.left.right = new BinarySearchTree(2);
+    expect(binarySearchTree.height()).to.eql(3);
+
+    binarySearchTree.left.left.left = new BinarySearchTree(0);
+    expect(binarySearchTree.height()).to.eql(3);
+    
+    binarySearchTree.right = new BinarySearchTree(8);
+    expect(binarySearchTree.height()).to.eql(3);
+  });
+  
+  // remove x to enable test
+  // Note: Make sure your height function works before running this test
+  xit('tree should be self-balancing', function() {
+    binarySearchTree.add(7);
+    binarySearchTree.add(9);
+    expect(binarySearchTree.height()).to.eql(1);
+    binarySearchTree.add(11);
+    binarySearchTree.add(13);
+    binarySearchTree.add(15);
+    binarySearchTree.add(5);
+    binarySearchTree.add(12);
+    expect(binarySearchTree.height()).to.eql(2);
+  });
 });

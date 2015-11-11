@@ -37,7 +37,7 @@ describe('MySet', function() {
     set.add(0);
     set.add(0);
     expect(set.contains(0)).to.equal(true);
-    set.remove(0)
+    set.remove(0);
     expect(set.contains(0)).to.equal(false);
   });
 
