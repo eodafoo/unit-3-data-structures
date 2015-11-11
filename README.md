@@ -65,15 +65,20 @@ Similar to a linked list with the addition that each node also has reference to 
 
 ##How do I get started?
 1. Fork this repo
-  - click on fork button on the top right of the page ![Alt text](http://u.cubeupload.com/azai91/howtofork.png)
+  - click on the **Fork** button on the top right of the page
+<br><img src="https://help.github.com/assets/images/help/repository/fork_button.jpg" width="300px"></img>  
   - click on your handle to fork to your repo
 
 2. Clone the repo
-  - copy and paste github url from the right side of the ![Alt text](http://u.cubeupload.com/azai91/howtoclone.png)
-  - type in the following line into your command line and insert your copies url as shown below:
-  ````
-  git clone *github url
-  ````
+  - first, make sure you're on your new forked repo on GitHub
+  - copy and paste github url from the right side of the page
+<br><img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" width="200px"></img>
+  - type in the following line into your command line and insert your copied url instead of the quoted text:
+  ```
+  git clone 'copied url'
+  ```
+  
+Check out the [GitHub Documentation](https://help.github.com/articles/fork-a-repo/) for a more in-depth explanation of forking and cloning.
 
 ##Challenges
 
