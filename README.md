@@ -73,7 +73,7 @@ Similar to a linked list with the addition that each node also has reference to 
   - first, make sure you're on your new forked repo on GitHub
   - copy and paste github url from the right side of the page
 <br><img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" width="200px"></img>
-  - type in the following line into your command line and insert your copied url instead of the quoted text:
+  - enter the following line into your command line and insert your copied url instead of the quoted text:
   ```
   git clone 'copied url'
   ```
