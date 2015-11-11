@@ -107,7 +107,7 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.remove``` method, which removes a value from the hash table
 
 ##Extension Challenges
-Note: not all extension challenges have tests, but some do. Some tests that are here are disabled by default so you'll need to enable them to check your work. To enable them, open up the appropriate test file in the `/test` directory and change `xit` to `it` in order to turn on the disabled tests.
+Note: not all extension challenges have tests, but some do. The tests that are here are disabled by default so you'll need to enable them to check your work. To enable them, open up the appropriate test file in the `/test` directory and change `xit` to `it`.
 
 - Tree
   - [ ] Implement the ```.add``` method, which adds a value to the tree
