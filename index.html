@@ -7,7 +7,6 @@
 <script src="test/lib/scroll.js"></script>
 <body onload="loadScroll()" onunload="saveScroll()">
   <div id="mocha"></div>
-  <!-- <script src="test/lib/jquery/dist/jquery.js"></script> -->
   <script src="test/lib/mocha/mocha.js"></script>
   <script>mocha.setup('bdd')</script>
   <script src="test/lib/expect/index.js"></script>
@@ -27,6 +26,8 @@
   <script src="test/graph-tests.js"></script>
   <script src="src/extension/BinarySearchTree.js"></script>
   <script src="test/binary-search-tree-tests.js"></script>
+  <script src="src/extension/Trie.js"></script>
+  <script src="test/trie-tests.js"></script>
   <script>
     mocha.globals();
     mocha.run();

@@ -6,10 +6,8 @@ describe('Queue', function() {
   });
 
   it('should have enqueue and dequeue method', function() {
-
     expect(queue).to.have.property('enqueue');
     expect(queue).to.have.property('dequeue');
-
     expect(queue.dequeue).to.be.a('function');
     expect(queue.enqueue).to.be.a('function');
   });
