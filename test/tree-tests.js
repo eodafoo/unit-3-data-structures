@@ -1,5 +1,5 @@
 var tree;
-describe('Tree', function() {
+xdescribe('Tree', function() {
   beforeEach(function() {
     tree = new Tree();
   });
@@ -30,8 +30,9 @@ describe('Tree', function() {
     tree.children[0].add(4);
     expect(tree.contains(4)).to.eql(true);
   });
-  
-  xit('should calculate height', function() {
+
+
+  it('should calculate height', function() {
     tree.add(5);
     tree.add(8);
     var son = tree.children[0];

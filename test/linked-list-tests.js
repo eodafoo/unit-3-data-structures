@@ -1,4 +1,4 @@
-xdescribe('LinkedList', function() {
+describe('LinkedList', function() {
   var list;
   beforeEach(function() {
     list = new LinkedList();
@@ -40,7 +40,7 @@ xdescribe('LinkedList', function() {
 
 
   // remove x to activate test
-  xit('should have addToHead method', function() {
+  it('should have addToHead method', function() {
     expect(list.addToHead).to.be.a('function');
   });
 
@@ -67,10 +67,20 @@ xdescribe('LinkedList', function() {
     expect(list.head.next.next.next.next.value).to.eql(2);
     expect(list.head.next.next.next.next.next).to.eql(null);
   });
+
+  xit('the constructor should take a variable number of arguments. It will add each of the arguments to the list upon instantiation', function() {
+    var newList = new LinkedList(5, 1, 2, 6, 8);
+    expect(newList.head.value).to.eql(5);
+    expect(newList.head.next.value).to.eql(1);
+    expect(newList.head.next.next.value).to.eql(2);
+    expect(newList.head.next.next.next.value).to.eql(6);
+    expect(newList.head.next.next.next.next.value).to.eql(8);
+    expect(newList.head.next.next.next.next.next).to.eql(null);
+  });
 });
 
 // remove x to activate test
-describe('Doubly Linked List', function() {
+xdescribe('Doubly Linked List', function() {
   var list;
   beforeEach(function() {
     list = new LinkedList();

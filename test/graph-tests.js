@@ -1,5 +1,5 @@
 var graph, nodes = {}, values = [3, 5, 6, 7, 10];
-describe('Graph', function() {
+xdescribe('Graph', function() {
   beforeEach(function() {
     graph = new Graph(0);
     values.forEach(function(num) {
@@ -26,7 +26,7 @@ describe('Graph', function() {
     expect(graph.contains(15)).to.be(false);
   });
 
-  xit('should add edges to graph', function() {
+  it('should add edges to graph', function() {
     expect(graph.contains(1337)).to.be(false);
     expect(graph.contains(9001)).to.be(false);
     nodes[7].addNode(1337);
@@ -35,7 +35,7 @@ describe('Graph', function() {
     expect(graph.contains(9001)).to.be(true);
   });
 
-  xit('should remove node', function() {
+  it('should remove node', function() {
     expect(graph.contains(3)).to.be(true);
     expect(graph.contains(5)).to.be(true);
     graph.remove(5);
@@ -44,7 +44,7 @@ describe('Graph', function() {
     expect(graph.contains(3)).to.be(false);
   });
 
-  xit('should remove all nodes with inputted value', function() {
+  it('should remove all nodes with inputted value', function() {
     expect(graph.contains(10)).to.be(true);
     graph.addNode(10);
     graph.addNode(10);

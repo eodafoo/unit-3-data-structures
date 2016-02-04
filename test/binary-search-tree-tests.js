@@ -1,14 +1,14 @@
-describe('binarySearchTree', function() {
+xdescribe('Binary Search Tree', function() {
   var binarySearchTree;
 
   beforeEach(function() {
     binarySearchTree = new BinarySearchTree(5);
   });
 
-  it('should have methods named "add", "contains", "depthFirstPre", "depthFirstIn", "depthFirstPost", "breadthFirst"', function() {
+  it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
-    expect(binarySearchTree.depthFirstIn).to.be.a("function");    
+    expect(binarySearchTree.depthFirstIn).to.be.a("function");
     expect(binarySearchTree.depthFirstPost).to.be.a("function");
     expect(binarySearchTree.depthFirstPre).to.be.a("function");
     expect(binarySearchTree.breadthFirst).to.be.a("function");
@@ -74,23 +74,23 @@ describe('binarySearchTree', function() {
     binarySearchTree.breadthFirst(func);
     expect(array).to.eql([5,2,7,3,6]);
   });
-  
+
   // remove x to enable test
-  xit('height method should return correct height', function() {
+  it('height method should return correct height', function() {
     binarySearchTree.left = new BinarySearchTree(3);
     binarySearchTree.left.left = new BinarySearchTree(1);
     expect(binarySearchTree.height()).to.eql(2);
-    
+
     binarySearchTree.left.left.right = new BinarySearchTree(2);
     expect(binarySearchTree.height()).to.eql(3);
 
     binarySearchTree.left.left.left = new BinarySearchTree(0);
     expect(binarySearchTree.height()).to.eql(3);
-    
+
     binarySearchTree.right = new BinarySearchTree(8);
     expect(binarySearchTree.height()).to.eql(3);
   });
-  
+
   // remove x to enable test
   // Note: Make sure your height function works before running this test
   xit('tree should be self-balancing', function() {
@@ -131,7 +131,7 @@ describe('binarySearchTree', function() {
     it('should remove leaf nodes', function() {
       expect(tree.toArray()).to.eql([ 0, 2, 3, 5, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20, 43, 100 ]);
       tree.remove(3);
-      expect(tree.toArray()).to.eql([ 0, 2, 5, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20, 43, 100 ])
+      expect(tree.toArray()).to.eql([ 0, 2, 5, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 20, 43, 100 ]);
     });
 
     it('should remove nodes that have one child', function() {
