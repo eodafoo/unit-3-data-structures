@@ -5,7 +5,7 @@ xdescribe('Binary Search Tree', function() {
     binarySearchTree = new BinarySearchTree(5);
   });
 
-  it('should have methods named "add", "contains", "depthFirst", "breadthFirst"', function() {
+  it('should have methods named "add", "contains", "depthFirstPre", "depthFirstIn", "depthFirstPost", "breadthFirst"', function() {
     expect(binarySearchTree.add).to.be.a("function");
     expect(binarySearchTree.contains).to.be.a("function");
     expect(binarySearchTree.depthFirstIn).to.be.a("function");
@@ -76,7 +76,7 @@ xdescribe('Binary Search Tree', function() {
   });
 
   // remove x to enable test
-  it('height method should return correct height', function() {
+  xit('height method should return correct height', function() {
     binarySearchTree.left = new BinarySearchTree(3);
     binarySearchTree.left.left = new BinarySearchTree(1);
     expect(binarySearchTree.height()).to.eql(2);
