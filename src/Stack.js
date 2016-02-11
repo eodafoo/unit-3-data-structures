@@ -1,6 +1,6 @@
 // do not use any native array methods
 function Stack() {
-  this.storage = [];
+  this.storage = {};
   this.index = 0;
 }
 
