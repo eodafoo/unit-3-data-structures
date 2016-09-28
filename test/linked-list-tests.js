@@ -1,28 +1,29 @@
-describe('LinkedList', function() {
-  var list;
-  beforeEach(function() {
+describe('LinkedList', () => {
+  let list;
+
+  beforeEach(() => {
     list = new LinkedList();
   });
 
-  it('should have a push method', function() {
+  it('should have a push method', () => {
     expect(list.push).to.be.a('function');
   });
 
-  it('should have head set to null when list is made', function() {
+  it('should have head set to null when list is made', () => {
     expect(list.head).to.eql(null);
   });
 
-  it('should push first element to head', function() {
+  it('should push first element to head', () => {
     list.push(5);
     expect(list.contains(5)).to.eql(true);
   });
 
-  it('should return false if element in not present in list', function() {
+  it('should return false if element in not present in list', () => {
     list.push(0);
     expect(list.contains(1)).to.eql(false);
   });
 
-  it('should push multiple elements', function() {
+  it('should push multiple elements', () => {
     list.push(0);
     list.push(1);
     list.push(2);
@@ -40,12 +41,12 @@ describe('LinkedList', function() {
 
 
   // remove x to activate test
-  it('should have addToHead method', function() {
+  xit('should have addToHead method', () => {
     expect(list.addToHead).to.be.a('function');
   });
 
   // remove x to activate test
-  xit('should add value to head', function() {
+  xit('should add value to head', () => {
     list.push(0);
     list.push(1);
     list.push(2);
@@ -68,8 +69,8 @@ describe('LinkedList', function() {
     expect(list.head.next.next.next.next.next).to.eql(null);
   });
 
-  xit('the constructor should take a variable number of arguments. It will add each of the arguments to the list upon instantiation', function() {
-    var newList = new LinkedList(5, 1, 2, 6, 8);
+  xit('the constructor should take a variable number of arguments. It will add each of the arguments to the list upon instantiation', () => {
+    const newList = new LinkedList(5, 1, 2, 6, 8);
     expect(newList.head.value).to.eql(5);
     expect(newList.head.next.value).to.eql(1);
     expect(newList.head.next.next.value).to.eql(2);
@@ -80,18 +81,19 @@ describe('LinkedList', function() {
 });
 
 // remove x to activate test
-xdescribe('Doubly Linked List', function() {
-  var list;
-  beforeEach(function() {
+xdescribe('Doubly Linked List', () => {
+  let list;
+
+  beforeEach(() => {
     list = new LinkedList();
   });
 
-  it('nodes should have back property', function() {
-    var node = new Node(0);
+  it('nodes should have back property', () => {
+    const node = new Node(0);
     expect(node).to.have.property('back');
   });
 
-  it('should link back reference to previous node when node is pushed to list', function() {
+  it('should link back reference to previous node when node is pushed to list', () => {
     list.push(0);
     list.push(1);
     list.push(2);

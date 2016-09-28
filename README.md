@@ -2,7 +2,7 @@
 
 ##Introduction
 
-In this challenge, you will be creating data structures that are commonly use in software engineering. Understanding data structures allows engineers to store their data in optimal formats. A description of each data structure is provided in the [Summary](#summary). Feel free to look online for additional information about each structure.
+In this challenge, you will be creating data structures that are commonly use in software engineering. Understanding data structures allows engineers to store their data in optimal formats. A description of each data structure is provided in the [Summary](#summary). Feel free to look online for additional information about each structure. NOTE: This challenge intentionally avoids using ES6 classes in order to develop a deeper understanding of the prototype chain.
 
 Learning goals
 
@@ -87,7 +87,7 @@ Similar to a linked list with the addition that each node also has reference to 
 3. Each partner clone their own repo to their own laptop, following the clone instructions in step 2
 4. Each partner add two remote links to their clone on their own laptop, one to CodesmithLLC's repo, and one to their partner's repo, following the instructions in step 3
 5. As you work on the shared workstation, periodically push your changes to your repo with `git push origin master`. Your partner can then use `git pull partner master` to get the changes onto their machine, followed by `git push origin master` to push those changes to their own GitHub repo!
-  
+
 Check out the [GitHub Documentation](https://help.github.com/articles/fork-a-repo/) for a more in-depth explanation of forking and cloning.
 
 ##Challenges
@@ -169,5 +169,8 @@ Note: not all extension challenges have tests, but some do. The tests that are h
 ##How do I test if my answer is correct?
 * To test your functions, open index.html in your browser
 
-* NOTE: While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
+* You may notice that some tests do not pass unless additional methods are defined and working first. Good unit testing (i.e. testing one function independently) does not require other functions to be defined and working in order to pass. However, it is necessary to bend this rule for this challenge since there are certain assumptions we cannot make about how you choose to design your data structures.
+
+* While completing the challenges, if all tests that previously passed ALL suddenly fail, there is most likely a syntax error in your code. Open Chrome Dev Tool's to locate the cause of the error.
+
 * **Pending tests.** Some of the bonus tests (highlighted blue) are considered "pending" and will not run. In order to enable them, go into the test file and remove the 'x' from in front of the `describe` or `it` function for the corresponding tests.
