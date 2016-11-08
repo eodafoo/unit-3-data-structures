@@ -116,6 +116,14 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.set``` method, which sets a value to the hash table
   - [ ] Implement the ```.remove``` method, which removes a value from the hash table
 
+- Binary Search Tree
+  - [ ] Implement the ```.add``` method, which adds an element to the binary searchTree
+  - [ ] Implement the ```.contains``` method, which determines if a value is contained in the tree
+  - [ ] Implement the ```.depthFirstPre``` method, which applies a callback in depth first (preorder)
+  - [ ] Implement the ```.depthFirstIn``` method, which applies a callback in depth first (inorder)
+  - [ ] Implement the ```.depthFirstPost``` method, which applies a callback in depth first (postorder)
+  - [ ] Implement the ```.breadthFirst``` method, which applies a callback in breadth first
+
 ##Extension Challenges
 Note: not all extension challenges have tests, but some do. The tests that are here are disabled by default so you'll need to enable them to check your work. To enable them, open up the appropriate test file in the `/test` directory and change `xit` to `it`.
 
@@ -127,14 +135,6 @@ Note: not all extension challenges have tests, but some do. The tests that are h
   - [ ] Implement the ```.addNode``` method, which adds a node to the current node
   - [ ] Implement the ```.contains``` method, which determines if a value is contained in a graph
   - [ ] Implement the ```.remove``` method, which removes all nodes with that value
-
-- Binary Search Tree
-  - [ ] Implement the ```.add``` method, which adds an element to the binary searchTree
-  - [ ] Implement the ```.contains``` method, which determines if a value is contained in the tree
-  - [ ] Implement the ```.depthFirstPre``` method, which applies a callback in depth first (preorder)
-  - [ ] Implement the ```.depthFirstIn``` method, which applies a callback in depth first (inorder)
-  - [ ] Implement the ```.depthFirstPost``` method, which applies a callback in depth first (postorder)
-  - [ ] Implement the ```.breadthFirst``` method, which applies a callback in breadth first
 
 - LinkedList (addToHead method)
   - [ ] Implement the ```.addToHead``` method, which adds an element to the beginning of the list
