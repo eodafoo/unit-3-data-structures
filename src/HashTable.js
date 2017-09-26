@@ -2,7 +2,7 @@ function HashTable() {
   this.SIZE = 16;
 
   // the array will be instantiated as [undefined, undefined....]
-  // the array length should not change in this problem
+  // pop() and push() shouldn't be used on the storage
   this.storage = new Array(this.SIZE);
 }
 
