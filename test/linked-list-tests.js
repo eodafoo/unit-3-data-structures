@@ -78,6 +78,29 @@ describe('LinkedList', () => {
     expect(newList.head.next.next.next.next.value).to.eql(8);
     expect(newList.head.next.next.next.next.next).to.eql(null);
   });
+
+  it('should insert node at as the head', () => {
+    list.insert(5,0);
+    expect(list.head.value).to.eql(5);
+  });
+  
+  it('should insert node at as the tail and the tail node remains unchanged', () => {
+    list.push(1);
+    list.push(2);
+    list.push(3);
+    list.push(4);
+    list.insert(8,3);
+    expect(list.head.next.next.next.next.value).to.eql(4);
+ });
+
+  it('should insert node at any given position', () => {
+    list.push(1);
+    list.push(2);
+    list.push(3);
+    list.push(4);
+    list.insert(8,3);
+    expect(list.head.next.next.next.value).to.eql(8);
+  });
 });
 
 // remove x to activate test
