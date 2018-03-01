@@ -99,8 +99,8 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.pop``` method, which removes and returns an element from the top of the stack
 
 - Queue
-  - [ ] Implement the ```.enqueue``` method, which adds an element to the front of the queue
-  - [ ] Implement the ```.dequeue``` method, which removes and returns an element at the end of the queue
+  - [ ] Implement the ```.enqueue``` method, which adds an element to the end of the queue
+  - [ ] Implement the ```.dequeue``` method, which removes and returns an element at the front of the queue
 
 - Set
   - [ ] Implement the ```.add``` method, which adds an element to the set (does not add an object if the object is already present in set)
