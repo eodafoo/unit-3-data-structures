@@ -20,7 +20,7 @@ Think of a stack of pancakes - you add pancakes to the top of the stack and eat 
 
 ### [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 <img src="./assets/queue.png" height="200px"><br>
-A data strucure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
+A data structure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
 
 Think of a line for a roller coaster - the people that enter the line first, are the ones that get on the ride first.
 
@@ -146,7 +146,7 @@ Note: not all extension challenges have tests, but some do. The tests that are h
   - [ ] Refactor the LinkedList class to make it a doubly linked list
 
 - HashTable (resize)
-  - [ ] Adds a feature where the storage of the hash table is doubled when 75% of the storage is filled and shrinks when less than 25% of the current storage is filled
+  - [ ] Add a feature where the storage size of the hash table is doubled when 75% of the storage is "filled" and shrinks when less than 25% of the current storage is "filled." The size should never drop below the default 16 buckets. For what constitutes "filled" in a Hash Table, start [here](https://en.wikipedia.org/wiki/Hash_table#Key_statistics).
 
 - Tree
   - [ ] Implement the ```.height``` method, which calculates the height of the tree
