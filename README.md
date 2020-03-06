@@ -20,7 +20,7 @@ Think of a stack of pancakes - you add pancakes to the top of the stack and eat 
 
 ### [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 <img src="./assets/queue.png" height="200px"><br>
-A data strucure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
+A data structure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
 
 Think of a line for a roller coaster - the people that enter the line first, are the ones that get on the ride first.
 
@@ -102,11 +102,6 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
   - [ ] Implement the ```.enqueue``` method, which adds an element to the end of the queue
   - [ ] Implement the ```.dequeue``` method, which removes and returns an element at the front of the queue
 
-- Set
-  - [ ] Implement the ```.add``` method, which adds an element to the set (does not add an object if the object is already present in set)
-  - [ ] Implement the ```.contains``` method, which determines if an element in present in a set
-  - [ ] Implement the ```.remove``` method, which removes an element from the set if present
-
 - LinkedList
   - [ ] Implement the ```.push``` method, which adds a node to the end of the linked list
   - [ ] Implement the ```.contains``` method, which determines if a value is present in the list
@@ -126,6 +121,11 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
 
 ## Extension Challenges
 Note: not all extension challenges have tests, but some do. The tests that are here are disabled by default so you'll need to enable them to check your work. To enable them, open up the appropriate test file in the `/test` directory and change `xit` to `it`.
+
+- Set
+  - [ ] Implement the ```.add``` method, which adds an element to the set (does not add an object if the object is already present in set)
+  - [ ] Implement the ```.contains``` method, which determines if an element in present in a set
+  - [ ] Implement the ```.remove``` method, which removes an element from the set if present
 
 - Tree
   - [ ] Implement the ```.add``` method, which adds a value to the tree
