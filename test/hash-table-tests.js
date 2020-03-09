@@ -64,7 +64,7 @@ describe('HashTable', () => {
       hashTable.set(key, value);
     }
     expect(hashTable.SIZE).to.equal(32);
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 6; i++) {
       const key = 'key ' + i;
       hashTable.remove(key);
     }

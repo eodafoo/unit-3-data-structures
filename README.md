@@ -146,7 +146,7 @@ Note: not all extension challenges have tests, but some do. The tests that are h
   - [ ] Refactor the LinkedList class to make it a doubly linked list
 
 - HashTable (resize)
-  - [ ] Adds a feature where the storage of the hash table is doubled when 75% of the storage is filled and shrinks when less than 25% of the current storage is filled
+  - [ ] Add a feature where the storage size of the hash table is doubled when 75% of the storage is "filled" and shrinks when less than 25% of the current storage is "filled." The size should never drop below the default 16 buckets. For what constitutes "filled" in a Hash Table, start [here](https://en.wikipedia.org/wiki/Hash_table#Key_statistics).
 
 - Tree
   - [ ] Implement the ```.height``` method, which calculates the height of the tree
