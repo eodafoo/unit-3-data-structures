@@ -13,30 +13,30 @@ Learning goals
 ## Summary
 
 ### [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-<img src="./assets/stack.png" height="200px"><br>
+<img src="./docs/assets/images/stack.png" height="200px"><br>
 A data structure that serves as a collection of elements, with two principle operations: push and pop. Push adds an element to the collection. Pop removes the last element that was added. This data structure follows the "Last In, First Out" principle (LIFO), where the elements that were most recently pushed (added) to the stack, are popped off (removed) first.
 
 Think of a stack of pancakes - you add pancakes to the top of the stack and eat them from top to bottom.
 
 ### [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
-<img src="./assets/queue.png" height="200px"><br>
+<img src="./docs/assets/images/queue.png" height="200px"><br>
 A data structure that serves as a collection of elements that preserves the order at which the elements are inserted. The principle operations are enqueue, which adds an element to the collection, and dequeue, which removes the element that was added the earliest. This data structure follows the "First In, First Out" principle (FIFO), where elements that are enqueued (added) into the queue first, are dequeue (removed) first.
 
 Think of a line for a roller coaster - the people that enter the line first, are the ones that get on the ride first.
 
 ### [LinkedList](https://en.wikipedia.org/wiki/Linked_list)
-<img src="./assets/linked_list.png" height="200px"><br>
+<img src="./docs/assets/images/linked_list.png" height="200px"><br>
 A data structure that serves as a collection of elements. Data is stored in nodes, and each node has a reference to the next node. In order to access elements from a linked list, the first node (or head) is checked. If the element is not present in the first node, then the node that is referenced by the head (the second node) is checked. This action is repeated until the entire list is inspected. The two principle operations are push (or add) and contains. Push creates a new node and adds
 it to the end of the list. Contains checks the entire list and determines if the element is present in any of the nodes.
 
 ### [Hash Table](https://en.wikipedia.org/wiki/Hash_table)
-<img src="./assets/hash_table.png" height="200px"><br>
+<img src="./docs/assets/images/hash_table.png" height="200px"><br>
 A data structure that stores key-value pairs (similar to the way an object works in javascript). The location in memory where the element is stored is determined by running the key through a hash function. The hash function accepts a key and returns an address where the element should be inserted/retrieved.
 
 A common problem occurs when two distinct keys are converted to the same address - an occurrence called a collision. Collisions need to be handled in a way that ensures no data is overwritten and all data can still be efficiently retrieved.
 
 ### [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-<img src="./assets/binary.png" height="200px"><br>
+<img src="./docs/assets/images/binary.png" height="200px"><br>
 Similar to a tree, except with a few constraints:
 
 * each node can only have up to 2 children
@@ -46,33 +46,33 @@ Similar to a tree, except with a few constraints:
 * the right child must have a greater value than its parent
 
 ### [Set](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
-<img src="./assets/set.png" height="200px"><br>
+<img src="./docs/assets/images/set.png" height="200px"><br>
 A data structure that specializes in determining if an object is present in a collection or not. The two principle operations are add, which adds an element to the set, and contains, which determines if an element is present in the set. Elements present in the set are distinct, and adding duplicate elements does not increase the size of the set.
 
 ### [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
-<img src="./assets/tree.png" height="200px"><br>
+<img src="./docs/assets/images/tree.png" height="200px"><br>
 A data structure that stores elements in a hierarchical manner (an example would be if you were storing a family tree). Each element is stored in a node, and each node has a references to its children (the nodes below that node). Each node can only have one parent.
 
 ### [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
-<img src="./assets/graph.gif" height="200px"><br>
+<img src="./docs/assets/images/graph.gif" height="200px"><br>
 A collection of nodes that have references to other nodes.
 
 A good use case of a graph would be to store data of people in a social network. Each node not only contains data about an person, but also a reference to another person. Retrieving a person's friends would only involve looking at one node's references to other nodes.
 
 ### [Doubly LinkedList](https://en.wikipedia.org/wiki/Doubly_linked_list)
-<img src="./assets/doubly_linked.PNG" height="200px"><br>
+<img src="./docs/assets/images/doubly_linked.PNG" height="200px"><br>
 Similar to a linked list with the addition that each node also has reference to the previous node.
 
 ## How do I get started?
 1. Have BOTH partners fork this repo
   - click on the **Fork** button on the top right of the page
-<br><img src="https://help.github.com/assets/images/help/repository/fork_button.jpg" width="300px"></img>  
+<br><img src="./docs/assets/images/fork_button.jpg" width="300px"></img>  
   - click on your handle to fork to your repo
 
 2. Choose one partner's GitHub repo to work from, and clone it to your shared machine
   - first, make sure you're on your new forked repo on GitHub
   - copy and paste github url from the right side of the page
-<br><img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" width="200px"></img>
+<br><img src="./docs/assets/images/clone-repo-clone-url-button.png" width="200px"></img>
   - enter the following line into your command line and insert your copied url instead of the quoted text:
   ```
   git clone 'copied url'
