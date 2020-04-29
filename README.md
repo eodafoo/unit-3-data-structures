@@ -155,7 +155,6 @@ Note: not all extension challenges have tests, but some do. The tests that are h
   - [ ] Implement the ```.min``` method, which returns the min value in the tree
   - [ ] Implement the ```.max``` method, which returns the max value in the tree
   - [ ] Implement the ```.height``` method, which returns the [height](http://www.comp.dit.ie/rlawlor/Alg_DS/searching/3.%20%20Binary%20Search%20Tree%20-%20Height.pdf) of the tree
-  - [ ] Implement the ```.remove``` method, which removes an element from the tree
   - [ ] Refactor your ```.add``` method so that your Binary Search Tree is [self-balancing](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
 - Priority Queue
