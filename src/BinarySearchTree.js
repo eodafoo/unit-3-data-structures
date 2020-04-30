@@ -49,3 +49,9 @@ BinarySearchTree.prototype.max = function() {
 BinarySearchTree.prototype.height = function() {
   
 };
+
+// Extra Bonus
+// Remove an item from the tree and ensure that the children of the item are properly repositioned
+BinarySearchTree.prototype.remove = function(item) {
+
+};
