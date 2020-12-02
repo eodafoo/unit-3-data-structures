@@ -1,27 +1,22 @@
-function setCookie(value){
-    localStorage.setItem('page_scroll', value);
+function setPageScroll(value) {
+  localStorage.setItem('page_scroll', value);
 }
 
-function getCookie() {
-    return localStorage.getItem('page_scroll');
+function getPageScroll() {
+  return localStorage.getItem('page_scroll');
 }
 
-function saveScroll(){ // added function
-    var x = (document.pageXOffset?document.pageXOffset:document.body.scrollLeft)
-    var y = (document.pageYOffset?document.pageYOffset:document.body.scrollTop)
-    var value=x + "_" + y
-    setCookie(value);
+function saveScroll() { // added function
+  const currentPosition = window.scrollX + "_" + window.scrollY;
+  setPageScroll(currentPosition);
 }
 
-function loadScroll(){ // added function
-    var inf = getCookie();
-    if(!inf) {
-        return
-    }
-    var ar = inf.split("_")
-    if(ar.length == 2) {
-      setTimeout(function() {
-        window.scrollTo(parseInt(ar[0]), parseInt(ar[1]))
-      }, 0);
-    }
+function loadScroll() {
+  const foundPosition = getPageScroll();
+  if (foundPosition) {
+    const [xPosition, yPosition] = foundPosition.split("_");
+    setTimeout(function() {
+      window.scrollTo(parseInt(xPosition), parseInt(yPosition))
+    }, 0);
+  }
 }
