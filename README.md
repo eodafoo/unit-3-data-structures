@@ -105,6 +105,7 @@ Complete the challenge in located in ```src/ directory```. We recommend completi
 - LinkedList
   - [ ] Implement the ```.push``` method, which adds a node to the end of the linked list
   - [ ] Implement the ```.contains``` method, which determines if a value is present in the list
+  - Note: both ```.push``` and ```.contains``` need to be created before the tests for _either_ method will pass
 
 - HashTable
   - [ ] Implement the ```.get``` method, which retrieves a value that was previously inserted in the hash table
