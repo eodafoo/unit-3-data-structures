@@ -6,7 +6,7 @@ In this challenge, you will be creating data structures that are commonly use in
 
 Learning goals
 
-- Understand [pseudoclassical inheritance pattern](http://davidshariff.com/blog/javascript-inheritance-patterns/)
+- Understand [pseudoclassical inheritance pattern](https://medium.com/@jasondotlee/the-pseudoclassical-inheritance-pattern-in-javascript-e12e56d441aa)
 - Understand the use case of data structures provided in challenges
 - Be able to reimplement data structures provided in challenges
 
