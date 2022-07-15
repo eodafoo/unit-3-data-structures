@@ -85,7 +85,7 @@ Similar to a linked list with the addition that each node also has reference to 
     git remote add partner https://github.com/PARTNERS_GITHUB_HANDLE/unit-2-data-structure.git
     ```
     \* Make sure to edit the remote partner link with your partner's GitHub handle.
-4. As you work remotely on your own workstation, periodically push your changes to your repo with `git push origin master`. Your partner can then use `git pull partner master` to get the changes onto their machine, followed by `git push origin master` to push those changes to their own GitHub repo!
+4. As you work remotely on your own workstation, periodically push your changes to your repo with `git push origin main`. Your partner can then use `git pull partner main` to get the changes onto their machine, followed by `git push origin main` to push those changes to their own GitHub repo!
 
 Check out the [GitHub Documentation](https://help.github.com/articles/fork-a-repo/) for a more in-depth explanation of forking and cloning.
 
