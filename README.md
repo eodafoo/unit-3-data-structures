@@ -64,31 +64,32 @@ A good use case of a graph would be to store data of people in a social network.
 Similar to a linked list with the addition that each node also has reference to the previous node.
 
 ## How do I get started?
-1. Have BOTH partners fork this repo
-  - click on the **Fork** button on the top right of the page
-<br><img src="./docs/assets/images/fork_button.jpg" width="300px"></img>  
-  - click on your handle to fork to your repo
+1. Have __BOTH__ partners fork this repo
+    - click on the __Fork__ button on the top right of the page
+  <br><img src="./docs/assets/images/fork_button.jpg" width="300px"></img>  
+    - click on your handle to fork to your repo
 
-2. Choose one partner's GitHub repo to work from, and clone it to your shared machine
-  - first, make sure you're on your new forked repo on GitHub
-  - copy and paste github url from the right side of the page
-<br><img src="./docs/assets/images/clone-repo-clone-url-button.png" width="200px"></img>
-  - enter the following line into your command line and insert your copied url instead of the quoted text:
-  ```
-  git clone 'copied url'
-  ```
-3. Add two remote links to the cloned repo on your shared workstation: one to CodesmithLLC's repo, and one to the partners repo that was not cloned:
-  ```
-  git remote add upstream https://github.com/CodesmithLLC/unit-2-data-structure.git
-  ```
-  ```
-  git remote add partner https://github.com/PARTNERS_GITHUB_HANDLE/unit-2-data-structure.git
-  ```
-3. Each partner clone their own repo to their own laptop, following the clone instructions in step 2
-4. Each partner add two remote links to their clone on their own laptop, one to CodesmithLLC's repo, and one to their partner's repo, following the instructions in step 3
-5. As you work on the shared workstation, periodically push your changes to your repo with `git push origin master`. Your partner can then use `git pull partner master` to get the changes onto their machine, followed by `git push origin master` to push those changes to their own GitHub repo!
+2. Each partner clones their own newly forked repo to their local machine
+    - first, make sure you're on your new forked repo on GitHub
+    - copy and paste GitHub url from the right side of the page
+<br><img src="./docs/assets/images/clone-repo-clone-url-button-new.png" width="200px"></img>
+    - enter the following line into your command line and insert your copied url instead of the quoted text:
+      ```
+      git clone 'copied url'
+      ```
+3. Each partner adds two remote links to their cloned repo on their own local workstation: one to CodesmithLLC's repo, and one to the partner's repo:
+    ```
+    git remote add upstream https://github.com/CodesmithLLC/unit-2-data-structure.git
+    ```
+    ```
+    git remote add partner https://github.com/PARTNERS_GITHUB_HANDLE/unit-2-data-structure.git
+    ```
+    \* Make sure to edit the remote partner link with your partner's GitHub handle.
+4. As you work remotely on your own workstation, periodically push your changes to your repo with `git push origin main`. Your partner can then use `git pull partner main` to get the changes onto their machine, followed by `git push origin main` to push those changes to their own GitHub repo!
 
 Check out the [GitHub Documentation](https://help.github.com/articles/fork-a-repo/) for a more in-depth explanation of forking and cloning.
+
+If working remotely, you'll want to make sure you have the VS Code extension [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) installed. When working with your partner, one of you will need to share your copy of the unit via Live Share - this will allow you to both work together in the same VS Code editor. Note that when using Live Share, it will still be important for *both* partners to fork the challenge, and whoever is sharing should still regularly push changes to their repo. This will ensure that both of you consistently have access to the most recent version of your work.
 
 ## Challenges
 
