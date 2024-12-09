@@ -72,7 +72,7 @@ Similar to a linked list with the addition that each node also has reference to 
 2. Each partner clones their own newly forked repo to their local machine
     - first, make sure you're on your new forked repo on GitHub
     - copy and paste GitHub url from the right side of the page
-<br><img src="./docs/assets/images/clone-repo-clone-url-button-new.png" width="200px"></img>
+<br><img src="./docs/assets/images/clone-repo-clone-url-button.png" width="200px"></img>
     - enter the following line into your command line and insert your copied url instead of the quoted text:
       ```
       git clone 'copied url'
