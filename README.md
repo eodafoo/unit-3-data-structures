@@ -79,10 +79,10 @@ Similar to a linked list with the addition that each node also has reference to 
       ```
 3. Each partner adds two remote links to their cloned repo on their own local workstation: one to CodesmithLLC's repo, and one to the partner's repo:
     ```
-    git remote add upstream https://github.com/CodesmithLLC/unit-2-data-structure.git
+    git remote add upstream https://github.com/CodesmithLLC/unit-3-data-structures.git
     ```
     ```
-    git remote add partner https://github.com/PARTNERS_GITHUB_HANDLE/unit-2-data-structure.git
+    git remote add partner https://github.com/PARTNERS_GITHUB_HANDLE/unit-3-data-structures.git
     ```
     \* Make sure to edit the remote partner link with your partner's GitHub handle.
 4. As you work remotely on your own workstation, periodically push your changes to your repo with `git push origin main`. Your partner can then use `git pull partner main` to get the changes onto their machine, followed by `git push origin main` to push those changes to their own GitHub repo!
