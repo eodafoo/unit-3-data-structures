@@ -5,7 +5,20 @@ function BinarySearchTree(value) {
 }
 
 BinarySearchTree.prototype.add = function(value) {
-
+  const newnode = new BinarySearchTree(value);
+  let curr = this;
+  while ((value > curr.value && curr.right !== null)||(value < curr.value && curr.left !== null)){
+    if (value > curr.value){
+      curr = curr.right;
+    }else{
+      curr = curr.left;
+    }
+  }
+  if (value > curr.value){
+    curr.right = newnode;
+  }else {
+    curr.left = newnode;
+  }
 };
 
 BinarySearchTree.prototype.contains = function(value) {
