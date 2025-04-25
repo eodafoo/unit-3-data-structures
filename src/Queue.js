@@ -10,6 +10,9 @@ Queue.prototype.enqueue = function(value) {
 };
 
 Queue.prototype.dequeue = function() {
+    if (Object.keys(this.storage).length === 0) {
+        return undefined; // or throw new Error("Queue is empty");
+    }
     let dequeueVal = this.storage[0];
     delete this.storage[0];
     for (let index in this.storage){
