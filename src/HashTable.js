@@ -12,8 +12,6 @@ HashTable.prototype.set = function(key, value) {
   const index = hashCode(key,this.SIZE);
   if (this.storage[index]===undefined){
     this.storage[index]=[];
-    this.storage[index].push([key,value]);
-    return;
   }
   for (let keyValue of this.storage[index]){
     if (keyValue[0]===key){
@@ -21,6 +19,8 @@ HashTable.prototype.set = function(key, value) {
       return;
     }
   }
+  this.storage[index].push([key,value]);
+  return;
 }; 
 
 // return a previously stored value
